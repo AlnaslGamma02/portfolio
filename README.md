@@ -1,2 +1,5 @@
-# portfolio
-My Portfolio site.
+# My Portfolio site
+
+私のポートフォリオサイトです。
+
+実際のポートフォリオサイトは[こちら]()です。
