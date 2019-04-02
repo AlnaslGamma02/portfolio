@@ -42,6 +42,22 @@ header li > a {
 }
 
 /* メイン */
+.container {
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
 
 /* フッター */
 footer {
