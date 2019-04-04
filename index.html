@@ -8,83 +8,95 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
   crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/base/default.css">
+  <link rel="stylesheet" href="css/layout/default.css">
+  <link rel="stylesheet" href="css/module/modules.css">
 </head>
 <body>
-  <header>
-    <!-- メニューバー(ページ内リンク) -->
-    <section>
-      <nav>
-        <ul>
-          <li><a href="#self_introduction">自己紹介</a></li>
-          <li><a href="#learning">学習中</a></li>
-          <li><a href="#achievement">成果物</a></li>
-          <li><a href="#contact">連絡先</a></li>
-        </ul>
-      </nav>
-    </section>
-    <!-- ページタイトル -->
-    <section id="page_title">
+<div id="container">
+  <!-- グローバルナビゲーション -->
+  <header class="layout-content-fixed header">
+    <!-- <h1 class="header-logo">
+      <a href="index.html">
+        <img src="img/Alnasl-logo.png" alt="ロゴ">
+      </a>
+    </h1> -->
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="nav-menu-item"><a href="#">自己紹介</a></li>
+        <li class="nav-menu-item"><a href="#">学習中</a></li>
+        <li class="nav-menu-item"><a href="#">成果物</a></li>
+        <li class="nav-menu-item"><a href="#">連絡先</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="layout-main">
+    <!-- ヒーロー画像 -->
+    <section class="layout-content-expanded">
       <h1>Welcome to my portfolio page.</h1>
     </section>
-  </header>
-  <main>
     <!-- 自己紹介 -->
-    <section id="self_introduction">
-      <div class="container">
+    <section class="layout-content-fixed">
+      <header>
         <h1>自己紹介</h1>
-        <img src="img/avatar.jpg" alt="avatar" id="avatar">
-        <p>
-          AlnaslGamma02 と申します。新潟県在住の30代・男です。<br>
-          新潟県内のIT系専門学校を卒業後、東京のIT系企業へ就職。
-          派遣先のデータセンターでオペレーターとして数年間勤めたあと、<br>
-          諸事情により退職して新潟へUターンしてきました。
-          （プログラマーとしての業務経験はありません。）<br>
-          Uターン後は就職活動・アルバイト等をしていましたが、プログラマーになりたいとの考えから2018年10月より本格的な<br>
-          プログラミング学習（主にRubyやRails）を開始しました。 現在求職活動中です。
-        </p>
-      </div>
+      </header>
+      <img src="img/avatar.jpg" alt="avatar" id="avatar">
+      <p>
+        AlnaslGamma02 と申します。新潟県在住の30代・男です。<br>
+        新潟県内のIT系専門学校を卒業後、東京のIT系企業へ就職。
+        派遣先のデータセンターでオペレーターとして数年間勤めたあと、<br>
+        諸事情により退職して新潟へUターンしてきました。
+        （プログラマーとしての業務経験はありません。）<br>
+        Uターン後は就職活動・アルバイト等をしていましたが、
+        プログラマーになりたいとの考えから2018年10月より本格的な<br>
+        プログラミング学習を開始しました。 現在求職活動中です。
+      </p>
     </section>
     <!-- 学習中 -->
-    <section id="learning">
-      <h1>学習中</h1>
+    <section class="layout-content-fixed">
+      <header>
+        <h1>学習中</h1>
+      </header>
       <ul>
         <li>言語・フレームワーク</li>
-          <ul>
-            <li>Ruby</li>
-            <li>Ruby on Rails</li>
-            <li>Bootstrap4</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
+        <ul>
+          <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>Bootstrap4</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+      </ul>
+      <ul>
         <li>その他ソフトウェアなど</li>
-          <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Heroku</li>
-            <li>AWS IAM, S3</li>
-            <li>Visual Studio Code</li>
-            <li>Vagrant</li>
-            <li>VirtualBox</li>
-          </ul>
+        <ul>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Heroku</li>
+          <li>AWS IAM, S3</li>
+          <li>Visual Studio Code</li>
+          <li>Vagrant</li>
+          <li>VirtualBox</li>
+        </ul>
       </ul>
     </section>
     <!-- 成果物 -->
-    <section id="achievement">
-      <h1>成果物</h1>
+    <section class="layout-content-fixed">
+      <header>
+        <h1>成果物</h1>
+      </header>
       <ul>
         <li>BlogApp</li>
         <li>実際のサイトはこちらです。</li>
         <li>GitHubでソースコードも公開中です。</li>
       </ul>
     </section>
-  </main>
-  <footer>
     <!-- 連絡先 -->
-    <section id="contact">
-      <h1>連絡先</h1>
+    <section class="layout-content-fixed">
+      <header>
+        <h1>連絡先</h1>
+      </header>
       <ul>
         <li>
           <a href="mailto:Alnasl.Gamma02@gmail.com">
@@ -98,7 +110,15 @@
         </li>
       </ul>
     </section>
-    <p>&copy; AlnaslGamma02</p>
+  </main>
+  <!-- フッター -->
+  <footer class="layout-content-expanded">
+    <div class="layout-content-fixed">
+      <small>
+        &copy; AlnaslGamma02
+      </small>
+    </div>
   </footer>
+</div>
 </body>
 </html>

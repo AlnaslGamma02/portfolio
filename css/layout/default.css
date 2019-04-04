@@ -1,0 +1,14 @@
+/* ページ全体のコンテナ */
+#container {
+  min-width: 980px;
+}
+/* 固定幅のコンテンツ */
+.layout-content-fixed {
+  width: 980px;
+  margin: 0 auto;
+}
+/* コンテナの幅に拡大するコンテンツ */
+.layout-content-expanded {
+  width: auto;
+  margin: 0;
+}

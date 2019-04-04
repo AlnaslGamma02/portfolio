@@ -1,0 +1,22 @@
+.header {
+  /* flex コンテナ */
+  display: -webkit-flex;
+  display: flex;
+  /* flex アイテムを上下にセンタリング */
+  -webkit-align-items: center;
+  align-items: center;
+  /* flex アイテムを両端揃え */
+  /* -webkit-justify-content: left;
+  justify-content: left; */
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+/* .header-logo {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1;
+}
+.header-logo img {
+  width: 6em;
+  height: 100%;
+} */

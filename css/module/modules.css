@@ -1,0 +1,4 @@
+/* モジュールルール：index.htmlで使用するModuleを@importで指定する。 */
+@import url("btn.css");
+@import url("header.css");
+@import url("nav-menu.css");
