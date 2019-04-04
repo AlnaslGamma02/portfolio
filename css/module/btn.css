@@ -10,6 +10,7 @@
   font-weight: bold;
   cursor: pointer;
 }
+/* 目を引くボタン */
 .btn-highlighted {
   border: none;
   background-color: #55C299;
@@ -17,6 +18,7 @@
   color: white;
   font-weight: bold;
 }
+/* メニュー項目用ボタン */
 .btn-menuitem {
   padding: 0.3em 1em;
 }
