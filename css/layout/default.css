@@ -12,3 +12,21 @@
   width: auto;
   margin: 0;
 }
+/* マルチカラムレイアウト */
+.layout-multicolumn {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 50px -20px;
+}
+/* 3カラムレイアウト */
+.layout-3column > .layout-column {
+  width: calc(100% / 3);
+  padding: 0 20px;
+}
+/* 2カラムレイアウト */
+.layout-2column > .layout-column {
+  width: calc(100% / 2);
+  padding: 0 20px;
+}

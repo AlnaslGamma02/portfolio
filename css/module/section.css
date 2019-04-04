@@ -1,0 +1,51 @@
+/* 主要パーツ */
+.section {
+  padding: 60px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+/* 主要パーツのヘッダ */
+.section-header {
+  margin:0 0 2.5em 0;
+  line-height: 1.2;
+}
+/* 主要パーツの見出し */
+.section-title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+/* 主要パーツの小見出し */
+/* .section-subtitle {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+} */
+/* 項目のシンボル図形 */
+.section-item-symbol {
+  height: 120px;
+}
+/* 項目のタイトル */
+.section-item-title {
+  margin: 1em 0 0.5em 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+/* 項目の説明文 */
+.section-item-description {
+  margin: 0;
+  font-size: 1em;
+  text-align: left;
+}
+/* section 内のボタンのサイズ指定 */
+.section .btn {
+  padding: .75rem 1rem;
+  width: 15rem;
+  font-size: 1em;
+}
+/* section 内のmap */
+/* .section-map {
+  width: 100%;
+  margin-top: 5em;
+} */
