@@ -16,15 +16,14 @@
   font-size: 50px;
   font-weight: bold;
 }
-/* 主要パーツの小見出し */
-/* .section-subtitle {
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-} */
-/* 項目のシンボル図形 */
+/* 項目のシンボルイメージ */
 .section-item-symbol {
   height: 120px;
+}
+/* 自己紹介のアバター画像 */
+.section-item-avatar {
+  height: 120px;
+  border-radius: 50%;
 }
 /* 項目のタイトル */
 .section-item-title {
@@ -44,8 +43,42 @@
   width: 15rem;
   font-size: 1em;
 }
-/* section 内のmap */
-/* .section-map {
-  width: 100%;
-  margin-top: 5em;
-} */
+/* section 内のリボン */
+.section-item-ribbon {
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3px;
+  color: white;
+  font-weight: bold;
+  border-width: 1px;
+  border-radius: 25px;
+}
+.section-item-ribbon + .section-item-ribbon {
+  margin: 3px auto;
+}
+.ribbon-red {
+  background-color: red;
+}
+.ribbon-orange {
+  background-color: orange;
+}
+.ribbon-yellow {
+  background-color: yellow;
+  color: black;
+}
+.ribbon-black {
+  background-color: black;
+}
+.ribbon-purple {
+  background-color: purple;
+}
+.ribbon-blue {
+  background-color: blue;
+}
+.ribbon-skyblue {
+  background-color: skyblue;
+}

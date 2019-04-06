@@ -17,17 +17,29 @@
 <div id="container">
   <!-- グローバルナビゲーション -->
   <header class="layout-content-fixed header">
-    <!-- <h1 class="header-logo">
-      <a href="index.html">
-        <img src="img/Alnasl-logo.png" alt="ロゴ">
-      </a>
-    </h1> -->
+    <!-- メニュー -->
     <nav class="nav">
       <ul class="nav-menu">
-        <li class="nav-menu-item"><a href="#">自己紹介</a></li>
-        <li class="nav-menu-item"><a href="#">学習中</a></li>
-        <li class="nav-menu-item"><a href="#">成果物</a></li>
-        <li class="nav-menu-item"><a href="#">連絡先</a></li>
+        <li class="nav-menu-item"><a href="#self-introduction">自己紹介</a></li>
+        <li class="nav-menu-item"><a href="#learning">学習中</a></li>
+        <li class="nav-menu-item"><a href="#deliverable">成果物</a></li>
+      </ul>
+    </nav>
+    <!-- 連絡先 -->
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <address>
+            <a href="mailto:Alnasl.Gamma02@gmail.com">
+              <i class="far fa-envelope"></i> Mail
+            </a>
+          </address>
+        </li>
+        <li class="nav-menu-item">
+          <a href="http://twitter.com/@AlnaslGamma02" target="_blank">
+            <i class="fab fa-twitter"></i> Twitter
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -40,11 +52,11 @@
       </h2>
     </section>
     <!-- 自己紹介 -->
-    <section class="layout-content-fixed">
+    <section class="layout-content-fixed section">
       <header>
-        <h2>自己紹介</h2>
+        <h2 class="section-title" id="self-introduction">自己紹介</h2>
       </header>
-      <img src="img/avatar.jpg" alt="avatar" id="avatar">
+      <img class="section-item-avatar" src="img/avatar.jpg" alt="avatar" id="avatar">
       <p>
         AlnaslGamma02 と申します。新潟県在住の30代・男です。<br>
         新潟県内のIT系専門学校を卒業後、東京のIT系企業へ就職。
@@ -59,57 +71,68 @@
     <!-- 学習中 -->
     <section class="layout-content-fixed section">
       <header class="section-header">
-        <h2 class="section-title">学習中</h2>
+        <h2 class="section-title" id="learning">学習中</h2>
       </header>
       <div class="layout-multicolumn layout-2column">
         <section class="layout-column">
           <header>
-            <!-- <img class="section-item-symbol" src="" alt=""> -->
             <h3 class="section-item-title">言語・フレームワーク</h3>
           </header>
-          <p class="section-item-description">
-            <i class="far fa-gem"></i>
-            Ruby<br>
-            <i class="fas fa-film"></i>
-            Ruby on Rails<br>
-            <i class="fab fa-bootstrap"></i>
-            Bootstrap4<br>
-            <i class="fab fa-html5"></i>
-            HTML5<br>
-            <i class="fab fa-css3-alt"></i>
-            CSS3<br>
-            <i class="fab fa-js-square"></i>
-            JavaScript<br>
-          </p>
+          <ul>
+            <li class="section-item-ribbon ribbon-red">
+              <i class="far fa-gem"> Ruby</i>
+            </li>
+            <li class="section-item-ribbon ribbon-red">
+              <i class="fas fa-film"> Ruby on Rails</i>
+            </li>
+            <li class="section-item-ribbon ribbon-purple">
+              <i class="fab fa-bootstrap"> Bootstrap4</i>
+            </li>
+            <li class="section-item-ribbon ribbon-orange">
+              <i class="fab fa-html5"> HTML5</i>
+            </li>
+            <li class="section-item-ribbon ribbon-skyblue">
+              <i class="fab fa-css3-alt"> CSS3</i>
+            </li>
+            <li class="section-item-ribbon ribbon-yellow">
+              <i class="fab fa-js-square"> JavaScript</i>
+            </li>
+          </ul>
         </section>
         <section class="layout-column">
           <header>
-            <!-- <img class="section-item-symbol" src="" alt=""> -->
             <h3 class="section-item-title">その他ソフトウェアなど</h3>
           </header>
-          <p class="section-item-description">
-            <i class="fab fa-git-square"></i>
-            Git<br>
-            <i class="fab fa-github"></i>
-            GitHub<br>
-            <i class="fas fa-hospital-symbol"></i>
-            Heroku<br>
-            <i class="fab fa-aws"></i>
-            AWS IAM, S3<br>
-            <i class="fas fa-laptop-code"></i>
-            Visual Studio Code<br>
-            <i class="fas fa-chevron-circle-down"></i>
-            Vagrant<br>
-            <i class="fas fa-box"></i>
-            VirtualBox<br>
-          </p>
+          <ul>
+            <li class="section-item-ribbon ribbon-black">
+              <i class="fab fa-git-square"> Git</i>
+            </li>
+            <li class="section-item-ribbon ribbon-black">
+              <i class="fab fa-github"> GitHub</i>
+            </li>
+            <li class="section-item-ribbon ribbon-purple">
+              <i class="fas fa-hospital-symbol"> Heroku</i>
+            </li>
+            <li class="section-item-ribbon ribbon-orange">
+              <i class="fab fa-aws"> AWS IAM, S3</i>
+            </li>
+            <li class="section-item-ribbon ribbon-blue">
+              <i class="fas fa-laptop-code"> Visual Studio Code</i>
+            </li>
+            <li class="section-item-ribbon ribbon-blue">
+              <i class="fas fa-chevron-circle-down"> Vagrant</i>
+            </li>
+            <li class="section-item-ribbon ribbon-blue">
+              <i class="fas fa-box"> VirtualBox</i>
+            </li>
+          </ul>
         </section>
       </div>
     </section>
     <!-- 成果物 -->
     <section class="layout-content-fixed section">
       <header class="section-header">
-        <h2 class="section-title">成果物</h2>
+        <h2 class="section-title" id="deliverable">成果物</h2>
       </header>
       <div class="layout-multicolumn layout-3column">
         <!-- 後日追加予定 -->
@@ -124,12 +147,35 @@
         <!-- 成果物第一号 -->
         <section class="layout-column">
           <header>
-            <img class="section-item-symbol" src="img/ss01.PNG" alt="screen_shot">
-            <h3 class="section-item-title">BlogApp</h3>
+            <a href="https://calm-garden-94571.herokuapp.com" target="_blank">
+              <img class="section-item-symbol" src="img/ss01.PNG" alt="screen_shot">
+            </a>
+            <h3 class="section-item-title">
+              <a href="https://calm-garden-94571.herokuapp.com" target="_blank">
+                BlogApp
+              </a>
+            </h3>
           </header>
-          <p class="section-item-description">
-            実際のサイトはこちらです。GitHubでソースコードも公開中です。
-          </p>
+          <ul>
+            <li class="section-item-ribbon ribbon-red">
+              <i class="fas fa-film"> Ruby on Rails</i>
+            </li>
+            <li class="section-item-ribbon ribbon-purple">
+              <i class="fab fa-bootstrap"> Bootstrap4</i>
+            </li>
+            <li class="section-item-ribbon ribbon-purple">
+              <i class="fas fa-hospital-symbol"> Heroku</i>
+            </li>
+            <li class="section-item-ribbon ribbon-orange">
+              <i class="fab fa-aws"> AWS IAM, S3</i>
+            </li>
+          </ul>
+          <strong>
+            <a href="https://github.com/AlnaslGamma02/BlogApp" target="_blank">
+              GitHub
+            </a>
+            でソースコード公開中です。
+          </strong>
         </section>
         <!-- 後日追加予定 -->
         <section class="layout-column">
@@ -141,24 +187,6 @@
           </p>
         </section>
       </div>
-    </section>
-    <!-- 連絡先 -->
-    <section class="layout-content-fixed">
-      <header>
-        <h2>連絡先</h2>
-      </header>
-      <ul>
-        <li>
-          <a href="mailto:Alnasl.Gamma02@gmail.com">
-            <i class="far fa-envelope"></i> Mail
-          </a>
-        </li>
-        <li>
-          <a href="http://twitter.com/@AlnaslGamma02" target="_blank">
-            <i class="fab fa-twitter"></i> Twitter
-          </a>
-        </li>
-      </ul>
     </section>
   </main>
   <!-- フッター -->
