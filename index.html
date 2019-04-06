@@ -5,10 +5,199 @@
   <meta name="viewport"
   content="width=device-width, initial-scale=1.0, maximum-scale=1, shrink-to-fit=no">
   <title>My Portfolio Page</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="css/base/default.css">
+  <link rel="stylesheet" href="css/layout/default.css">
+  <link rel="stylesheet" href="css/module/modules.css">
+  <script src="./js/smooth-scroll.js"></script>
 </head>
 <body>
-
+<div id="container">
+  <!-- グローバルナビゲーション -->
+  <header class="layout-content-fixed header">
+    <!-- メニュー -->
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="nav-menu-item"><a href="#self-introduction">自己紹介</a></li>
+        <li class="nav-menu-item"><a href="#learning">学習中</a></li>
+        <li class="nav-menu-item"><a href="#deliverable">成果物</a></li>
+      </ul>
+    </nav>
+    <!-- 連絡先 -->
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <address>
+            <a href="mailto:Alnasl.Gamma02@gmail.com">
+              <i class="far fa-envelope"></i> Mail
+            </a>
+          </address>
+        </li>
+        <li class="nav-menu-item">
+          <a href="http://twitter.com/@AlnaslGamma02" target="_blank">
+            <i class="fab fa-twitter"></i> Twitter
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="layout-main">
+    <!-- ヒーロー画像 -->
+    <section class="layout-content-expanded hero">
+      <h2 class="hero-copy">
+        AlnaslGamma02<br>
+        Welcome to my portfolio page.
+      </h2>
+    </section>
+    <!-- 自己紹介 -->
+    <section class="layout-content-fixed section">
+      <header>
+        <h2 class="section-title" id="self-introduction">自己紹介</h2>
+      </header>
+      <img class="section-item-avatar" src="img/avatar.jpg" alt="avatar" id="avatar">
+      <p>
+        AlnaslGamma02 と申します。新潟県在住の30代・男です。<br>
+        新潟県内のIT系専門学校を卒業後、東京のIT系企業へ就職。
+        派遣先のデータセンターでオペレーターとして数年間勤めたあと、<br>
+        諸事情により退職して新潟へUターンしてきました。
+        （プログラマーとしての業務経験はありません。）<br>
+        Uターン後は就職活動・アルバイト等をしていましたが、
+        プログラマーになりたいとの考えから2018年10月より本格的な<br>
+        プログラミング学習を開始しました。 現在求職活動中です。
+      </p>
+    </section>
+    <!-- 学習中 -->
+    <section class="layout-content-fixed section">
+      <header class="section-header">
+        <h2 class="section-title" id="learning">学習中</h2>
+      </header>
+      <div class="layout-multicolumn layout-2column">
+        <section class="layout-column">
+          <header>
+            <h3 class="section-item-title">言語・フレームワーク</h3>
+          </header>
+          <ul>
+            <li class="section-item-ribbon ribbon-red">
+              <i class="far fa-gem"> Ruby</i>
+            </li>
+            <li class="section-item-ribbon ribbon-red">
+              <i class="fas fa-film"> Ruby on Rails</i>
+            </li>
+            <li class="section-item-ribbon ribbon-purple">
+              <i class="fab fa-bootstrap"> Bootstrap4</i>
+            </li>
+            <li class="section-item-ribbon ribbon-orange">
+              <i class="fab fa-html5"> HTML5</i>
+            </li>
+            <li class="section-item-ribbon ribbon-skyblue">
+              <i class="fab fa-css3-alt"> CSS3</i>
+            </li>
+            <li class="section-item-ribbon ribbon-yellow">
+              <i class="fab fa-js-square"> JavaScript</i>
+            </li>
+          </ul>
+        </section>
+        <section class="layout-column">
+          <header>
+            <h3 class="section-item-title">その他ソフトウェアなど</h3>
+          </header>
+          <ul>
+            <li class="section-item-ribbon ribbon-black">
+              <i class="fab fa-git-square"> Git</i>
+            </li>
+            <li class="section-item-ribbon ribbon-black">
+              <i class="fab fa-github"> GitHub</i>
+            </li>
+            <li class="section-item-ribbon ribbon-purple">
+              <i class="fas fa-hospital-symbol"> Heroku</i>
+            </li>
+            <li class="section-item-ribbon ribbon-orange">
+              <i class="fab fa-aws"> AWS IAM, S3</i>
+            </li>
+            <li class="section-item-ribbon ribbon-blue">
+              <i class="fas fa-laptop-code"> Visual Studio Code</i>
+            </li>
+            <li class="section-item-ribbon ribbon-blue">
+              <i class="fas fa-chevron-circle-down"> Vagrant</i>
+            </li>
+            <li class="section-item-ribbon ribbon-blue">
+              <i class="fas fa-box"> VirtualBox</i>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+    <!-- 成果物 -->
+    <section class="layout-content-fixed section">
+      <header class="section-header">
+        <h2 class="section-title" id="deliverable">成果物</h2>
+      </header>
+      <div class="layout-multicolumn layout-3column">
+        <!-- 後日追加予定 -->
+        <section class="layout-column">
+          <header>
+            <!-- <img class="section-item-symbol" src="" alt=""> -->
+            <h3 class="section-item-title"></h3>
+          </header>
+          <p class="section-item-description">
+          </p>
+        </section>
+        <!-- 成果物第一号 -->
+        <section class="layout-column">
+          <header>
+            <a href="https://calm-garden-94571.herokuapp.com" target="_blank">
+              <img class="section-item-symbol" src="img/ss01.PNG" alt="screen_shot">
+            </a>
+            <h3 class="section-item-title">
+              <a href="https://calm-garden-94571.herokuapp.com" target="_blank">
+                BlogApp
+              </a>
+            </h3>
+          </header>
+          <ul>
+            <li class="section-item-ribbon ribbon-red">
+              <i class="fas fa-film"> Ruby on Rails</i>
+            </li>
+            <li class="section-item-ribbon ribbon-purple">
+              <i class="fab fa-bootstrap"> Bootstrap4</i>
+            </li>
+            <li class="section-item-ribbon ribbon-purple">
+              <i class="fas fa-hospital-symbol"> Heroku</i>
+            </li>
+            <li class="section-item-ribbon ribbon-orange">
+              <i class="fab fa-aws"> AWS IAM, S3</i>
+            </li>
+          </ul>
+          <strong>
+            <a href="https://github.com/AlnaslGamma02/BlogApp" target="_blank">
+              GitHub
+            </a>
+            でソースコード公開中です。
+          </strong>
+        </section>
+        <!-- 後日追加予定 -->
+        <section class="layout-column">
+          <header>
+            <!-- <img class="section-item-symbol" src="" alt=""> -->
+            <h3 class="section-item-title"></h3>
+          </header>
+          <p class="section-item-description">
+          </p>
+        </section>
+      </div>
+    </section>
+  </main>
+  <!-- フッター -->
+  <footer class="layout-content-expanded footer">
+    <div class="layout-content-fixed footer-content">
+      <p class="footer-copy">
+        <small>&copy; AlnaslGamma02</small>
+      </p>
+      <p class="footer-totop" id="totop-btn"></p>
+    </div>
+  </footer>
+</div>
 </body>
 </html>

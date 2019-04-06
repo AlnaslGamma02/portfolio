@@ -1,0 +1,32 @@
+/* ページ全体のコンテナ */
+#container {
+  min-width: 980px;
+}
+/* 固定幅のコンテンツ */
+.layout-content-fixed {
+  width: 980px;
+  margin: 0 auto;
+}
+/* コンテナの幅に拡大するコンテンツ */
+.layout-content-expanded {
+  width: auto;
+  margin: 0;
+}
+/* マルチカラムレイアウト */
+.layout-multicolumn {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 50px -20px;
+}
+/* 3カラムレイアウト */
+.layout-3column > .layout-column {
+  width: calc(100% / 3);
+  padding: 0 20px;
+}
+/* 2カラムレイアウト */
+.layout-2column > .layout-column {
+  width: calc(100% / 2);
+  padding: 0 20px;
+}

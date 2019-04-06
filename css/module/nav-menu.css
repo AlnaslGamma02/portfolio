@@ -1,0 +1,16 @@
+.nav-menu {
+  /* flex コンテナ */
+  display: -webkit-flex;
+  display: flex;
+  /* flex アイテムを上下にセンタリング */
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.nav-menu-item + .nav-menu-item {
+  margin-left: 2em;
+}
+.nav-menu-item a {
+  color: #333;
+  font-weight: bold;
+}
