@@ -47,3 +47,10 @@
   -webkit-transform: rotate(-45deg) translate(-25%, -50%);
   transform: rotate(-45deg) translate(-25%, -50%);
 }
+@media (max-width: 900px) {
+  .footer-totop {
+    top: -22px;
+    width: 45px;
+    height: 45px;
+  }
+}

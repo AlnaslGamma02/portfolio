@@ -12,22 +12,19 @@
   <link rel="stylesheet" href="css/layout/default.css">
   <link rel="stylesheet" href="css/module/modules.css">
   <script src="./js/smooth-scroll.js"></script>
+  <script src="./js/hamburger-menu.js"></script>
 </head>
 <body>
 <div id="container">
   <!-- グローバルナビゲーション -->
   <header class="layout-content-fixed header">
-    <!-- メニュー -->
     <nav class="nav">
-      <ul class="nav-menu">
+      <ul class="nav-menu" id="js-header-menu">
+        <!-- メニュー -->
         <li class="nav-menu-item"><a href="#self-introduction">自己紹介</a></li>
         <li class="nav-menu-item"><a href="#learning">学習中</a></li>
         <li class="nav-menu-item"><a href="#deliverable">成果物</a></li>
-      </ul>
-    </nav>
-    <!-- 連絡先 -->
-    <nav class="nav">
-      <ul class="nav-menu">
+        <!-- 連絡先 -->
         <li class="nav-menu-item">
           <address>
             <a href="mailto:Alnasl.Gamma02@gmail.com">
@@ -41,6 +38,8 @@
           </a>
         </li>
       </ul>
+      <div class="header-menu-background" id="js-header-menu-background"></div>
+      <i class="fas fa-bars hamburger-btn" id="js-hamburger-btn"></i>
     </nav>
   </header>
   <main class="layout-main">
