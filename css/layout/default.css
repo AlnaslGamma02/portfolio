@@ -36,14 +36,26 @@
   }
 }
 @media (max-width: 600px) {
+  #container {
+    min-width: auto;
+  }
+  .layout-multicolumn {
+    flex-direction: column;
+  }
+  .layout-3column > .layout-column {
+    width: auto;
+    padding: 0;
+  }
+  .layout-2column > .layout-column {
+    width: auto;
+    padding: 0;
+  }
   .layout-content-fixed {
     width: auto;
+    padding: 0 1rem;
   }
   .layout-main {
     max-width: 100%;
     margin-right: 0;
-  }
-  .layout-content-fixed {
-    padding: 0 1rem;
   }
 }

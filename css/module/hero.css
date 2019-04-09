@@ -19,3 +19,8 @@
   font-size: 36px;
   text-align: center;
 }
+@media (max-width: 600px) {
+  .hero {
+    height: 100vh;
+  }
+}
