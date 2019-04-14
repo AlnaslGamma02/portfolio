@@ -1,0 +1,76 @@
+/* Webフォント */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+/* ページ内のフォント設定 */
+html {
+  line-height: 1.6;
+  font-size: 16px;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",
+              "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro", sans-serif;
+}
+/* 背景色と文字色 */
+body {
+  color: #333;
+  background-color: white;
+}
+/* ジャンボトロン */
+.jumbotron {
+  /* flex コンテナ */
+  display: flex;
+  display: -webkit-flex;
+  /* flex アイテムを中央揃え */
+  justify-content: center;
+  -webkit-justify-content: center;
+  /* flex アイテムを上下にセンタリング */
+  align-items: center;
+  -webkit-align-items: center;
+  /* 高さ */
+  height: 100vh;
+  /* 背景画像 */
+  background: url("../img/beach.jpg") center center;
+  background-size: cover;
+}
+/* ジャンボトロン内のテキスト */
+.hero-copy {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+/* 学習中内のリボンの設定 */
+.section-item-ribbon {
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3px;
+  color: white;
+  font-weight: bold;
+  border-width: 1px;
+  border-radius: 25px;
+}
+.section-item-ribbon + .section-item-ribbon {
+  margin: 3px auto;
+}
+.ribbon-red {
+  background-color: red;
+}
+.ribbon-orange {
+  background-color: orange;
+}
+.ribbon-yellow {
+  background-color: yellow;
+  color: black;
+}
+.ribbon-black {
+  background-color: black;
+}
+.ribbon-purple {
+  background-color: purple;
+}
+.ribbon-blue {
+  background-color: blue;
+}
+.ribbon-skyblue {
+  background-color: skyblue;
+}
