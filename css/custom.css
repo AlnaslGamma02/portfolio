@@ -1,3 +1,15 @@
+/* リセットCSS */
+@import url("normalize.css");
+
+/* スマートフォン用の設定 */
+/* @media screen and (max-width: 639px) {
+} */
+/* タブレット用の設定 */
+/* @media screen and (min-width: 640px) and (max-width: 959px) {
+} */
+
+/*                                  共通設定                                  */
+
 /* Webフォント */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
 /* ページ内のフォント設定 */
@@ -12,8 +24,80 @@ body {
   color: #333;
   background-color: white;
 }
-/* ジャンボトロン */
-.jumbotron {
+html, body {
+  padding: 0;
+  margin: 0;
+}
+*, *::before, **::after {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+/* ページ全体のコンテナ */
+#container {
+  min-width: 980px;
+}
+
+/*                          グローバルナビゲーション                          */
+.global-navigation-layout {
+  /* 固定幅のコンテンツ */
+  width: 980px;
+  margin: 0 auto;
+  /* flex コンテナ */
+  display: -webkit-flex;
+  display: flex;
+  /* flex アイテムを上下にセンタリング */
+  -webkit-align-items: center;
+  align-items: center;
+  /* flex アイテムを両端揃え */
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+/* ヘッダーロゴ */
+.header-logo {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1;
+}
+.header-logo a {
+  color: #333;
+}
+.nav-menu {
+  /* flex コンテナ */
+  display: -webkit-flex;
+  display: flex;
+  /* flex アイテムを上下にセンタリング */
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.nav-menu-item + .nav-menu-item {
+  margin-left: 2em;
+}
+.nav-menu-item a {
+  color: #333;
+  font-weight: bold;
+}
+
+/*                              ヒーローイメージ                              */
+.hero-image-layout {
+  /* コンテナの幅に拡大するコンテンツ */
+  width: auto;
+  margin: 0;
   /* flex コンテナ */
   display: flex;
   display: -webkit-flex;
@@ -23,54 +107,204 @@ body {
   /* flex アイテムを上下にセンタリング */
   align-items: center;
   -webkit-align-items: center;
-  /* 高さ */
-  height: 100vh;
+  height: 600px;
   /* 背景画像 */
   background: url("../img/beach.jpg") center center;
   background-size: cover;
 }
-/* ジャンボトロン内のテキスト */
 .hero-copy {
   margin: 0;
   color: white;
+  font-size: 36px;
   text-align: center;
 }
-/* 学習中内のリボンの設定 */
-.section-item-ribbon {
-  display: block;
-  position: relative;
-  height: 30px;
-  width: 200px;
+
+/*                                  自己紹介                                  */
+.profile-layout {
+  /* 固定幅のコンテンツ */
+  width: 980px;
   margin: 0 auto;
+  padding: 60px 0;
+  font-size: 1rem;
   text-align: center;
-  padding-top: 3px;
-  color: white;
+}
+/* 自己紹介のヘッダ */
+.profile-header {
+  margin:0 0 2.5em 0;
+  line-height: 1.2;
+}
+/* 自己紹介の見出し */
+.profile-title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
   font-weight: bold;
-  border-width: 1px;
-  border-radius: 25px;
 }
-.section-item-ribbon + .section-item-ribbon {
-  margin: 3px auto;
+/* 自己紹介のアバター画像 */
+.profile-item-avatar {
+  height: 240px;
+  margin-right: 1em; 
+  border-radius: 50%;
+  float: left;
 }
-.ribbon-red {
-  background-color: red;
+/* 自己紹介の説明文 */
+.profile-item-description {
+  margin: 0;
+  font-size: 1em;
+  text-align: left;
 }
-.ribbon-orange {
-  background-color: orange;
+
+/*                                   スキル                                   */
+.skill-layout {
+  /* 固定幅のコンテンツ */
+  width: 980px;
+  margin: 0 auto;
+  padding: 60px 0;
+  font-size: 1rem;
+  text-align: center;
 }
-.ribbon-yellow {
-  background-color: yellow;
-  color: black;
+/* スキルのヘッダ */
+.skill-header {
+  margin:0 0 2.5em 0;
+  line-height: 1.2;
 }
-.ribbon-black {
-  background-color: black;
+/* スキルの見出し */
+.skill-title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
 }
-.ribbon-purple {
-  background-color: purple;
+/* スキルグラフ */
+/* グラフのレイアウト */
+.graph-layout {
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-.ribbon-blue {
-  background-color: blue;
+/* スキル名 */
+.skill-name {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 10px;
+  text-align: left;
 }
-.ribbon-skyblue {
-  background-color: skyblue;
+/* グラフの上に間隔をあける */
+.graph-margin {
+  margin-top: 10px;
+}
+/* グラフの背景 */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+/* スキルの値 */
+.bar-html {width: 20%; height: 18px; background-color: #ff9800;}
+.bar-css  {width: 20%; height: 18px; background-color: #2196F3;}
+.bar-js   {width: 20%; height: 18px; background-color: #FFFF00;}
+.bar-bs   {width: 40%; height: 18px; background-color: #4B0082;}
+.bar-ruby {width: 40%; height: 18px; background-color: #f44336;}
+.bar-ronr {width: 40%; height: 18px; background-color: #f44336;}
+.bar-git  {width: 20%; height: 18px; background-color: #333333;}
+
+/*                                   成果物                                   */
+.works-layout {
+  /* 固定幅のコンテンツ */
+  width: 980px;
+  margin: 0 auto;
+  padding: 60px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+/* 成果物のヘッダ */
+.works-header {
+  margin:0 0 2.5em 0;
+  line-height: 1.2;
+}
+/* 成果物の見出し */
+.works-title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+/* サムネイル画像 */
+.works-item-image {
+  height: 360px;
+  margin-bottom: 2em;
+}
+/* テーブルの設定 */
+.blogapp-table-list {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.blogapp-table-list a {
+  color: blue;
+}
+.blogapp-table-list td {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 1em 0.8em;
+}
+.blogapp-table-list-col-item-name {
+  width: 9em;
+}
+
+/*                                   連絡先                                   */
+.contact-layout {
+  /* 固定幅のコンテンツ */
+  width: 980px;
+  margin: 0 auto;
+  padding: 60px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+.contact-layout a {
+  color: white;
+}
+/* 連絡先のヘッダ */
+.contact-header {
+  margin:0 0 2.5em 0;
+  line-height: 1.2;
+}
+/* 連絡先の見出し */
+.contact-title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.mail-btn {
+  display: inline-block;
+  padding: 0.6em 1em;
+  width: 30%;
+  border: none;
+  border-radius: 0.5em;
+  box-shadow: 3px 4px rgba(51, 51, 51, 0.15);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #d63031;
+}
+
+/*                                  フッター                                  */
+.global-navigation-footer-layout {
+  /* 固定幅のコンテンツ */
+  width: 980px;
+  margin: 20px auto;
+  /* flex コンテナ */
+  display: -webkit-flex;
+  display: flex;
+  /* flex アイテムを中央揃え */
+  justify-content: center;
+  -webkit-justify-content: center;
+  /* flex アイテムを上下にセンタリング */
+  -webkit-align-items: center;
+  align-items: center;
+}
+.copy-right {
+  margin-bottom: 10px;
+  text-align: center;
 }

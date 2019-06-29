@@ -7,191 +7,210 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
   crossorigin="anonymous">
-  <!-- リセットCSS -->
-  <link rel="stylesheet" href="./css/normalize.css">
   <!-- CSS -->
   <link rel="stylesheet" href="./css/custom.css">
   <!-- JavaScript -->
+  <!-- Favicon -->
+  <link rel="icon" href="./img/favicon.ico" sizes="32x32" type="image/vnd.microsoft.icon">
   <title>My Portfolio Page</title>
+  <meta name="description" content="Nasunoのポートフォリオサイトです。">
 </head>
 <body>
-<!-- ヘッダー -->
-<header>
-  <h1>
-    Portfolio
-  </h1>
-  <div>
-    <ul>
-      <li>プロフィール</li>
-      <li>スキル</li>
-      <li>成果物</li>
-      <li>連絡先</li>
-    </ul>
-  </div>
-</header>
-<!-- メイン -->
-<main>
-  <img src="./img/beach.jpg" alt="トップ画像">
-  <div>
-    <h1>プロフィール</h1>
-    <p>
-      <img src="./img/avatar.jpg" alt="アバター画像">
-      <br>
-      はじめまして。Nasunoと申します。昭和61年生まれの32歳です。
-      新潟県内のIT系専門学校を卒業後、東京のIT系企業へ就職しました。
-      運用管理ツールの導入・バージョンアップ・リプレース案件を1年。
-      派遣先のデータセンターでオペレーターとして6年半勤めたあと、
-      退職して新潟へUターンしてきました。
-      Uターン後はアルバイトをしていましたが、Webに携わりたい・
-      エンジニアになりたいと考え転職を決意しました。
+<div id="container">
+  <!-- ヘッダー -->
+  <header class="global-navigation-layout">
+    <!-- グローバルナビゲーション -->
+    <h1 class="header-logo">
+      <a href="./index.html">Portfolio</a>
+    </h1>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="nav-menu-item"><a href="#profile"><i class="fas fa-user"></i> Profile</a></li>
+        <li class="nav-menu-item"><a href="#skils"><i class="fas fa-chart-bar"></i> Skills</a></li>
+        <li class="nav-menu-item"><a href="#works"><i class="fas fa-briefcase"></i> Works</a></li>
+        <li class="nav-menu-item"><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- メイン -->
+  <main class="layout-main">
+    <!-- ヒーローイメージ -->
+    <section class="hero-image-layout">
+      <h2 class="hero-copy">Nasuno's Portfolio</h2>
+    </section>
+    <!-- 自己紹介 -->
+    <section class="profile-layout">
+      <header class="profile-header">
+        <h2 class="profile-title" id="profile"><i class="fas fa-user"></i> Profile</h2>
+      </header>
+      <img class="profile-item-avatar" src="./img/avatar.jpg" alt="アバター画像">
+      <section class="profile-item-description">
+        はじめまして。Nasunoと申します。昭和61年生まれの32歳です。
+        新潟県内のIT系専門学校を卒業後、東京のIT系企業へ就職しました。
+        運用管理ツールの導入・バージョンアップ・リプレース案件を1年。
+        派遣先のデータセンターでオペレーターとして6年半勤めたあと、
+        退職して新潟へUターンしてきました。
+        Uターン後はアルバイトをしていましたが、Webに携わりたい・
+        エンジニアになりたいと考え転職を決意しました。
+      </section>
+    </section>
+    <!-- スキル -->
+    <section class="skill-layout">
+      <header class="skill-header">
+        <h2 class="skill-title" id="skils"><i class="fas fa-chart-bar"></i> Skills</h2>
+      </header>
+      <div class="graph-layout">
+        <div class="skill-name">
+          <div>HTML5</div>
+        </div>
+        <div class="graph-margin">
+          <div class="bar-container">
+            <div class="bar-html"></div>
+          </div>
+        </div>
+        <div class="skill-name">
+          <div>CSS3</div>
+        </div>
+        <div class="graph-margin">
+          <div class="bar-container">
+            <div class="bar-css"></div>
+          </div>
+        </div>
+        <div class="skill-name">
+          <div>JavaScript</div>
+        </div>
+        <div class="graph-margin">
+          <div class="bar-container">
+            <div class="bar-js"></div>
+          </div>
+        </div>
+        <div class="skill-name">
+          <div>Bootstrap4</div>
+        </div>
+        <div class="graph-margin">
+          <div class="bar-container">
+            <div class="bar-bs"></div>
+          </div>
+        </div>
+        <div class="skill-name">
+          <div>Ruby</div>
+        </div>
+        <div class="graph-margin">
+          <div class="bar-container">
+            <div class="bar-ruby"></div>
+          </div>
+        </div>
+        <div class="skill-name">
+          <div>Ruby on Rails</div>
+        </div>
+        <div class="graph-margin">
+          <div class="bar-container">
+            <div class="bar-ronr"></div>
+          </div>
+        </div>
+        <div class="skill-name">
+          <div>Git</div>
+        </div>
+        <div class="graph-margin">
+          <div class="bar-container">
+            <div class="bar-git"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 成果物 -->
+    <section class="works-layout">
+      <header class="works-header">
+        <h2 class="works-title" id="works"><i class="fas fa-briefcase"></i> Works</h2>
+      </header>
+      <div>
+        <img class="works-item-image" src="./img/ss01.PNG" alt="BlogAppのサムネ">
+        <table class="blogapp-table-list">
+          <colgroup>
+            <col class="blogapp-table-list-col-item-name">
+            <col class="blogapp-table-list-col-item-data">
+          </colgroup>
+          <tbody>
+            <tr>
+              <td>アプリ名：</td>
+              <td>BlogApp</td>
+            </tr>
+            <tr>
+              <td>URL：</td>
+              <td>
+                <a href="https://calm-garden-94571.herokuapp.com" target="_blank">
+                  https://calm-garden-94571.herokuapp.com <i class="fas fa-external-link-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>GitHub：</td>
+              <td>
+                <a href="https://github.com/AlnaslGamma02/BlogApp" target="_blank">
+                  https://github.com/AlnaslGamma02/BlogApp <i class="fas fa-external-link-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>制作時期：</td>
+              <td>2019年2月～4月</td>
+            </tr>
+            <tr>
+              <td>使用技術：</td>
+              <td>Ruby on Rails 5, Bootstrap 4, Git, Heroku</td>
+            </tr>
+            <tr>
+              <td>説明：</td>
+              <td>
+                  2018年10月から独学でプログラミングの学習を進めて、2019年2月からそれまで
+                  学んだ事を元にブログの記事を投稿・閲覧できるWebアプリケーションを作成しました。
+                  初めてのアプリケーション開発でほとんど解らない事だらけでしたが、本を読んだり
+                  ネット上の情報を参考にしたりしてなんとか作成する事が出来ました。
+              </td>
+            </tr>
+            <tr>
+              <td>苦労した点：</td>
+              <td>
+                フロント部分(Bootstrap4)の作成、データベースの設計・構築、バリデーション、
+                デプロイ(Heroku)についての知識習得、開発環境の構築などほとんどが
+                未経験でしたので不明点やエラーの解決などに時間がかかりました。
+              </td>
+            </tr>
+            <tr>
+              <td>得られた事：</td>
+              <td>
+                Webアプリケーションの作成を通じて、おおまかな仕組みを知ることが出来ました。
+                また、自身に足りない知識・経験が沢山ある事に気付けました。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- 連絡先 -->
+    <section class="contact-layout">
+      <header class="contact-header">
+        <h2 class="contact-title" id="contact"><i class="fas fa-envelope"></i> Contact</h2>
+      </header>
+      <a href="mailto:tnasuno12@gmail.com" class="mail-btn"><i class="fas fa-envelope"></i> Mail</a>
+    </section>
+  </main>
+  <!-- フッター -->
+  <footer>
+    <section class="global-navigation-footer-layout">
+      <nav class="nav">
+        <ul class="nav-menu">
+          <li class="nav-menu-item"><a href="#profile"><i class="fas fa-user"></i> Profile</a></li>
+          <li class="nav-menu-item"><a href="#skils"><i class="fas fa-chart-bar"></i> Skills</a></li>
+          <li class="nav-menu-item"><a href="#works"><i class="fas fa-briefcase"></i> Works</a></li>
+          <li class="nav-menu-item"><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+    <p class="copy-right">
+      &copy;2019 Nasuno's Portfolio
     </p>
-    <h1>スキル</h1>
-    <table>
-      <thead>
-        <tr><th>技術</th><th>スキル</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>HTML5</td>
-          <td>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </td>
-        </tr>
-        <tr>
-          <td>CSS3</td>
-          <td>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </td>
-        </tr>
-        <tr>
-          <td>JavaScript</td>
-          <td>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </td>
-        </tr>
-        <tr>
-          <td>Bootstrap4</td>
-          <td>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </td>
-        </tr>
-        <tr>
-          <td>Ruby</td>
-          <td>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </td>
-        </tr>
-        <tr>
-          <td>Ruby on Rails</td>
-          <td>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </td>
-        </tr>
-        <tr>
-          <td>Git</td>
-          <td>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <h1>成果物</h1>
-    <div>
-      <img src="./img/ss01.PNG" alt="BlogAppのサムネ">
-      <table>
-        <tbody>
-          <tr>
-            <td>アプリ名：</td>
-            <td>BlogApp</td>
-          </tr>
-          <tr>
-            <td>URL：</td>
-            <td><a href="https://calm-garden-94571.herokuapp.com">https://calm-garden-94571.herokuapp.com</a></td>
-          </tr>
-          <tr>
-            <td>GitHub：</td>
-            <td><a href="https://github.com/AlnaslGamma02/BlogApp">https://github.com/AlnaslGamma02/BlogApp</a></td>
-          </tr>
-          <tr>
-            <td>制作時期：</td>
-            <td>2019年2月～4月</td>
-          </tr>
-          <tr>
-            <td>使用技術：</td>
-            <td>Ruby on Rails 5, Bootstrap 4, Git, Heroku</td>
-          </tr>
-          <tr>
-            <td>説明：</td>
-            <td>
-                2018年10月から独学でプログラミングの学習を進めて、2019年2月からそれまで
-                学んだ事を元にブログの記事を投稿・閲覧できるWebアプリケーションを作成しました。
-                初めてのアプリケーション開発でほとんど解らない事だらけでしたが、本を読んだり
-                ネット上の情報を参考にしたりしてなんとか作成する事が出来ました。
-            </td>
-          </tr>
-          <tr>
-            <td>苦労した点：</td>
-            <td>
-              フロント部分(Bootstrap4)の作成、データベースの設計・構築、バリデーション、
-              デプロイ(Heroku)についての知識習得、開発環境の構築などほとんどが
-              未経験でしたので不明点やエラーの解決などに時間がかかりました。
-            </td>
-          </tr>
-          <tr>
-            <td>得られた事：</td>
-            <td>
-              Webアプリケーションの作成を通じて、おおまかな仕組みを知ることが出来た事、
-              自身に足りない知識・経験が沢山ある事に気付けたのが一番大きかったと思います。
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <h1>連絡先</h1>
-    <p>
-      Mail:tnasuno12@gmail.com<br>
-    </p>
-  </div>
-</main>
-<!-- フッター -->
-<footer>
-  <div>
-    <ul>
-      <li>プロフィール</li>
-      <li>スキル</li>
-      <li>成果物</li>
-      <li>連絡先</li>
-    </ul>
-  </div>
-  <p>&copy;2019 Nasuno Portfolio</p>
-</footer>
+  </footer>
+</div>
 </body>
 </html>
