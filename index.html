@@ -251,27 +251,6 @@
       </header>
       <a href="mailto:tnasuno12@gmail.com" class="mail-btn"><i class="fas fa-envelope"></i> Mail</a>
     </section>
-    <!-- Topへ戻るボタン -->
-    <button onclick="topFunction()" id="back-to-top-btn" title="Go to top">Top</button>
-    <!-- JavaScript -->
-    <script>
-      // 20px下にスクロールした時、ボタンを表示する
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("back-to-top-btn").style.display = "block";
-        } else {
-          document.getElementById("back-to-top-btn").style.display = "none";
-        }
-      }
-      
-      // ボタンをクリックすると一番上に戻る
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
   </main>
   <!-- フッター -->
   <footer>
@@ -289,6 +268,27 @@
       &copy;2019 Nasuno's Portfolio
     </p>
   </footer>
+  <!-- Topへ戻るボタン -->
+  <button onclick="topFunction()" id="back-to-top-btn" title="Go to top">Top</button>
+  <!-- JavaScript -->
+  <script>
+    // 20px下にスクロールした時、ボタンを表示する
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("back-to-top-btn").style.display = "block";
+      } else {
+        document.getElementById("back-to-top-btn").style.display = "none";
+      }
+    }
+    
+    // ボタンをクリックすると一番上に戻る
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
 </div>
 </body>
 </html>
