@@ -231,27 +231,41 @@ a:hover {
   font-size: 50px;
   font-weight: bold;
 }
+.works-article {
+  /* コンテナの幅に拡大するコンテンツ */
+  width: auto;
+  margin: 0;
+  /* flex コンテナ */
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
 /* サムネイル画像 */
-.works-item-image {
-  height: 360px;
-  margin-bottom: 2em;
+.works-article-image {
+  margin: 0 auto 2em auto;
+  width: 90%;
+  height: auto;
 }
 /* テーブルの設定 */
-.blogapp-table-list {
+.table-list {
   width: 100%;
+  margin-bottom: 5em;
   border-collapse: collapse;
   text-align: left;
 }
-.blogapp-table-list a {
+.table-list a {
   color: blue;
 }
-.blogapp-table-list td {
+.table-list td {
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
   padding: 1em 0.8em;
 }
-.blogapp-table-list-col-item-name {
+.table-list-col-name {
   width: 9em;
+}
+.table-list-col-data {
+  width: auto;
 }
 
 /*                                   連絡先                                   */
