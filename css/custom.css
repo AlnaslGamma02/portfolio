@@ -1,15 +1,15 @@
+@charset "UTF-8";
 /* リセットCSS */
 @import url("normalize.css");
-
-/*                                  共通設定                                  */
 /* Webフォント */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+
+/*                                  共通設定                                  */
 /* ページ内のフォント設定 */
 html {
   line-height: 1.6;
   font-size: 16px;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",
-              "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro", sans-serif;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro", sans-serif;
 }
 /* 背景色と文字色 */
 body {
@@ -132,6 +132,15 @@ a:hover {
   font-size: 50px;
   font-weight: bold;
 }
+/* 自己紹介本文のレイアウト */
+.profile-text {
+  /* コンテナの幅に拡大するコンテンツ */
+  width: auto;
+  margin: 0;
+  /* flex コンテナ */
+  display: flex;
+  display: -webkit-flex;
+}
 /* 自己紹介のアバター画像 */
 .profile-item-avatar {
   height: 240px;
@@ -142,6 +151,7 @@ a:hover {
 /* 自己紹介の説明文 */
 .profile-item-description {
   margin: 0;
+  padding: 25px;
   font-size: 1em;
   text-align: left;
 }
