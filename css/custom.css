@@ -5,6 +5,23 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
 
 /*                                  共通設定                                  */
+/* 使用する色を変数化 */
+:root {
+  /* GREEN DARNER TAIL */
+  --blue-01: #74b9ff;
+  /* ELECTRON BLUE */
+  --blue-02: #0984e3;
+  /* CITY LIGHTS */
+  --gray-01: #dfe6e9;
+  /* SOOTHING BREEZE */
+  --gray-02: #b2bec3;
+  /* CHI-GONG */
+  --red-01: #d63031;
+  /* Black */
+  --black-01: #333333;
+  /* White */
+  --white-01: white;
+}
 /* ページ内のフォント設定 */
 html {
   line-height: 1.6;
@@ -13,8 +30,8 @@ html {
 }
 /* 背景色と文字色 */
 body {
-  color: #333;
-  background-color: white;
+  color: var(--black-01);
+  background-color: var(--white-01);
 }
 html, body {
   padding: 0;
@@ -41,8 +58,11 @@ a:hover {
 #container {
   min-width: 980px;
 }
-
 /*                          グローバルナビゲーション                          */
+header {
+  width: 100%;
+  background-color: var(--blue-01);
+}
 .global-navigation-layout {
   /* 固定幅のコンテンツ */
   width: 980px;
@@ -66,7 +86,7 @@ a:hover {
   line-height: 1;
 }
 .header-logo a {
-  color: #333;
+  color: var(--white-01);
 }
 .nav-menu {
   /* flex コンテナ */
@@ -81,7 +101,7 @@ a:hover {
   margin-left: 2em;
 }
 .nav-menu-item a {
-  color: #333;
+  color: var(--white-01);
   font-weight: bold;
 }
 
@@ -257,8 +277,8 @@ a:hover {
   color: blue;
 }
 .table-list td {
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 1px solid var(--black-01);
+  border-bottom: 1px solid var(--black-01);
   padding: 1em 0.8em;
 }
 .table-list-col-name {
