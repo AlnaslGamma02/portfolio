@@ -1,6 +1,8 @@
-/* フッター */
+/* ???? */
 .footer-nav-menu {
+  /* flex ????????? */
   justify-content: center;
+  -webkit-justify-content: center;
 }
 .copy-right {
   margin-bottom: 10px;
