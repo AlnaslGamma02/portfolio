@@ -1,0 +1,23 @@
+/* 自己紹介本文のレイアウト */
+.profile-text {
+  /* コンテナの幅に拡大するコンテンツ */
+  width: auto;
+  margin: 0;
+  /* flex コンテナ */
+  display: flex;
+  display: -webkit-flex;
+}
+/* 自己紹介のアバター画像 */
+.profile-item-avatar {
+  height: 240px;
+  margin-right: 1em;
+  border-radius: 50%;
+  float: left;
+}
+/* 自己紹介の説明文 */
+.profile-item-description {
+  margin: 0;
+  padding: 25px;
+  font-size: 1em;
+  text-align: left;
+}
