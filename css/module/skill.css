@@ -1,0 +1,28 @@
+/* スキルグラフ */
+/* グラフのレイアウト */
+.graph-layout {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+/* スキル名 */
+.skill-name {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 10px 0;
+  text-align: left;
+}
+/* グラフの背景 */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+/* スキルの値 */
+.bar-html {width: 20%; height: 18px; background-color: #ff9800;}
+.bar-css  {width: 20%; height: 18px; background-color: #2196F3;}
+.bar-js   {width: 20%; height: 18px; background-color: #FFFF00;}
+.bar-bs   {width: 40%; height: 18px; background-color: #4B0082;}
+.bar-ruby {width: 40%; height: 18px; background-color: #f44336;}
+.bar-ronr {width: 40%; height: 18px; background-color: #f44336;}
+.bar-git  {width: 20%; height: 18px; background-color: #333333;}
