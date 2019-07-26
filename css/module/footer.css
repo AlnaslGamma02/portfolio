@@ -1,10 +1,13 @@
-/* ???? */
+/* フッター */
+/* 全体の背景色 */
+.footer {
+  background-color: #0984e3;
+}
 .footer-nav-menu {
-  /* flex ????????? */
+  /* flex アイテムを両端揃え */
   justify-content: center;
   -webkit-justify-content: center;
 }
 .copy-right {
-  margin-bottom: 10px;
   text-align: center;
 }

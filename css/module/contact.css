@@ -1,4 +1,8 @@
-/* 連絡先 */
+/* 連絡先欄 */
+/* 全体の背景色 */
+.contact-area {
+  background-color: #74b9ff;
+}
 .mail-btn {
   display: inline-block;
   padding: 0.6em 1em;

@@ -1,4 +1,8 @@
 /* 成果物欄 */
+/* 全体の背景色 */
+.works-area {
+  background-color: #dfe6e9;
+}
 .works-article {
   /* コンテナの幅に拡大するコンテンツ */
   width: auto;
