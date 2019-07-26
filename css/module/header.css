@@ -1,8 +1,10 @@
 /* ヘッダー */
 /* 全体の背景色 */
+/* 
 .header {
   background-color: #0984e3;
 }
+ */
 .globalnav {
   /* flex コンテナ */
   display: -webkit-flex;
