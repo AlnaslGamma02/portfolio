@@ -2,8 +2,10 @@
 /* 全体の背景色 */
 .footer {
   background-color: #0984e3;
+  height: 80px;
 }
 .footer-nav-menu {
+  padding-top: 10px;
   /* flex アイテムを両端揃え */
   justify-content: center;
   -webkit-justify-content: center;
