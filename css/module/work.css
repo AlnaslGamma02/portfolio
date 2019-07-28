@@ -1,10 +1,8 @@
 /* 成果物欄 */
 /* 全体の背景色 */
-/* 
-.works-area {
+/* .works-area {
   background-color: #dfe6e9;
-}
- */
+} */
 .works-article {
   /* コンテナの幅に拡大するコンテンツ */
   width: auto;
@@ -17,8 +15,8 @@
 /* サムネイル画像 */
 .works-article-image {
   margin: 0 auto 2em auto;
-  width: 90%;
-  height: auto;
+  width: 320px;
+  height: 180px;
 }
 /* テーブルの設定 */
 .table-list {
@@ -33,10 +31,10 @@
 .table-list td {
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
-  padding: 1em 0.8em;
+  padding: 1em 0;
 }
 .table-list-col-name {
-  width: 9em;
+  width: 6em;
 }
 .table-list-col-data {
   width: auto;
