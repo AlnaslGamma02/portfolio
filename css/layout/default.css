@@ -18,10 +18,10 @@
   display: flex;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  margin: 50px -20px;
+  margin: 50px -10px;
 }
 /* ２カラムレイアウト */
 .l-2column > .l-column {
   width: calc(100% / 2);
-  padding: 0 20px;
+  padding: 0 10px;
 }

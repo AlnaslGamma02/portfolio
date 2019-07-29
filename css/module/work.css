@@ -1,7 +1,7 @@
 /* 成果物欄 */
 /* 全体の背景色 */
 /* .works-area {
-  background-color: #dfe6e9;
+  background-color: #16a085;
 } */
 .works-article {
   /* コンテナの幅に拡大するコンテンツ */
@@ -15,8 +15,8 @@
 /* サムネイル画像 */
 .works-article-image {
   margin: 0 auto 2em auto;
-  width: 320px;
-  height: 180px;
+  width: 420px;
+  height: 280px;
 }
 /* テーブルの設定 */
 .table-list {
