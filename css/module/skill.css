@@ -1,13 +1,11 @@
 /* スキル欄 */
 /* 全体の背景色 */
-/* 
-.skills-area {
+/* .skills-area {
   background-color: #74b9ff;
-}
- */
-/* スキルグラフ */
-/* グラフのレイアウト */
+} */
+/* スキルグラフのレイアウト */
 .graph-layout {
+  padding: 0 1em;
   flex-wrap: wrap;
   flex-direction: column;
 }
