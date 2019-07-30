@@ -25,3 +25,21 @@
   width: calc(100% / 2);
   padding: 0 10px;
 }
+/* タブレットサイズ */
+@media (max-width: 1024px)  AND (min-width: 768px) {
+  #container {
+    min-width: 768px;
+  }
+  .l-content-fixed {
+    width: 768px;
+  }
+}
+/* スマホサイズ */
+@media (max-width: 767px) {
+  #container {
+    min-width: auto;
+  }
+  .l-content-fixed {
+    width: auto;
+  }
+}
