@@ -25,3 +25,19 @@
 .header-logo a {
   color: #ffffff;
 }
+/* タブレットサイズ */
+@media (max-width: 1024px) {
+  .globalnav {
+    /* 主軸をブロック軸に */
+    flex-direction: column;
+    /* flexアイテムを左揃えに */
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+  .header-logo {
+    padding-left: 16px;
+  }
+}
+/* スマホサイズ */
+@media (max-width: 767px) {
+}

@@ -27,3 +27,21 @@
   text-align: left;
   white-space: pre-line;
 }
+/* タブレットサイズ */
+@media (max-width: 1024px) AND (min-width: 768px) {
+  .profile-item-description {
+    padding-left: 1em;
+  }
+}
+/* スマホサイズ */
+@media (max-width: 767px) {
+  .profile-text {
+    /* 主軸をブロック軸に */
+    flex-direction: column;
+    padding: 1em;
+  }
+  .profile-item-description {
+    padding: 1em 0 0 0;
+    white-space: normal;
+  }
+}

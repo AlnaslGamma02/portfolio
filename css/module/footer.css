@@ -16,3 +16,18 @@
   color: #ffffff;
   text-align: center;
 }
+/* タブレットサイズ */
+@media (max-width: 1024px) {
+  .footer {
+    height: auto;
+  }
+  .footer-nav-menu {
+    /* flexアイテムを左揃え */
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    padding-left: 1em;
+  }
+}
+/* スマホサイズ */
+@media (max-width: 767px) {
+}

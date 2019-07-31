@@ -19,3 +19,33 @@
 #back-to-top-btn:hover {
   background-color: #16a085;
 }
+/* ハンバーガーメニューアイコン */
+.icon {
+  display: none;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* タブレットサイズ */
+@media (max-width: 1024px) {
+  .icon {
+    display: block;
+    right: 128px;
+  }
+}
+@media (max-width: 768px) {
+  #back-to-top-btn {
+    right: 10px;
+  }
+  .icon {
+    right: 0;
+  }
+}

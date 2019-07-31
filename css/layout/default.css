@@ -26,7 +26,7 @@
   padding: 0 10px;
 }
 /* タブレットサイズ */
-@media (max-width: 1024px)  AND (min-width: 768px) {
+@media (max-width: 1024px) AND (min-width: 768px) {
   #container {
     min-width: 768px;
   }

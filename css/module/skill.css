@@ -5,7 +5,6 @@
 } */
 /* スキルグラフのレイアウト */
 .graph-layout {
-  padding: 0 1em;
   flex-wrap: wrap;
   flex-direction: column;
 }
@@ -31,3 +30,9 @@
 .bar-ruby {width: 40%; height: 18px; background-color: #f44336;}
 .bar-ronr {width: 40%; height: 18px; background-color: #f44336;}
 .bar-git  {width: 20%; height: 18px; background-color: #333333;}
+/* タブレットサイズ */
+@media (max-width: 1024px) {
+  .graph-layout {
+    padding: 0 1em;
+  }
+}
