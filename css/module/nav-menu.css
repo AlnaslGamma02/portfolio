@@ -12,7 +12,7 @@
   margin-left: 2em;
 }
 .nav-menu-item a {
-  color: #ffffff;
+  color: #ecf0f1;
   font-weight: bold;
 }
 /* タブレットサイズ */
@@ -39,7 +39,4 @@
   .nav-menu-item + .nav-menu-item {
     margin-left: 0;
   }
-}
-/* スマホサイズ */
-@media (max-width: 767px) {
 }

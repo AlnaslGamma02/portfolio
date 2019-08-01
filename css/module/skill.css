@@ -1,8 +1,4 @@
 /* スキル欄 */
-/* 全体の背景色 */
-/* .skills-area {
-  background-color: #74b9ff;
-} */
 /* スキルグラフのレイアウト */
 .graph-layout {
   flex-wrap: wrap;
@@ -18,9 +14,7 @@
 /* グラフの背景 */
 .bar-container {
   width: 100%;
-  background-color: #f1f1f1;
-  text-align: center;
-  color: white;
+  background-color: #bdc3c7;
 }
 /* スキルの値 */
 .bar-html {width: 20%; height: 18px; background-color: #ff9800;}

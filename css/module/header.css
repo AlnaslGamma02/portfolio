@@ -23,7 +23,7 @@
   line-height: 1;
 }
 .header-logo a {
-  color: #ffffff;
+  color: #ecf0f1;
 }
 /* タブレットサイズ */
 @media (max-width: 1024px) {
@@ -37,7 +37,4 @@
   .header-logo {
     padding-left: 16px;
   }
-}
-/* スマホサイズ */
-@media (max-width: 767px) {
 }

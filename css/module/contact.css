@@ -1,10 +1,4 @@
 /* 連絡先欄 */
-/* 全体の背景色 */
-/* 
-.contact-area {
-  background-color: #74b9ff;
-}
- */
 .mail-btn {
   display: inline-block;
   padding: 0.6em 1em;
@@ -13,7 +7,7 @@
   border-radius: 0.5em;
   box-shadow: 3px 4px rgba(51, 51, 51, 0.15);
   text-decoration: none;
-  color: white;
+  color: #ecf0f1;
   font-weight: bold;
   cursor: pointer;
   background-color: #1abc9c;
