@@ -12,19 +12,6 @@
   width: auto;
   margin: 0;
 }
-/* マルチカラムレイアウト */
-.l-multicolumn {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  margin: 50px -10px;
-}
-/* ２カラムレイアウト */
-.l-2column > .l-column {
-  width: calc(100% / 2);
-  padding: 0 10px;
-}
 /* タブレットサイズ */
 @media (max-width: 1024px) AND (min-width: 768px) {
   #container {
