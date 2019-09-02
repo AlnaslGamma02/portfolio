@@ -41,6 +41,6 @@
 /* スマホサイズ */
 @media (max-width: 767px) {
   .hero {
-    height: 60vh;
+    height: 586px;
   }
 }
