@@ -39,18 +39,6 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
-    <!-- JavaScript -->
-    <!-- メニューの表示・非表示を切り替える -->
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
-      }
-    </script>
   </header>
   <!-- メイン -->
   <main class="l-main">
@@ -297,25 +285,36 @@
   <button onclick="topFunction()" id="back-to-top-btn" title="Go to top">
     <i class="fas fa-angle-up"></i>
   </button>
-  <!-- JavaScript -->
+  <!-- JavaScript ここから -->
   <script>
-    // 20px下にスクロールした時、ボタンを表示する
+    // グローバルメニューの表示・非表示を切り替える
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+
+    // 100px下にスクロールした時、Topへ戻るボタンを表示する
     window.onscroll = function() {scrollFunction()};
     
     function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("back-to-top-btn").style.display = "block";
       } else {
         document.getElementById("back-to-top-btn").style.display = "none";
       }
     }
-    
-    // ボタンをクリックすると一番上に戻る
+
+    // Topへ戻るボタンをクリックすると一番上に戻る
     function topFunction() {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
   </script>
+  <!-- JavaScript ここまで -->
 </div>
 </body>
 </html>
