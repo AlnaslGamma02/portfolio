@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* モジュールルール：index.html で使用するModuleを@importで指定します。 */
 @import url("header.css");
 @import url("nav-menu.css");

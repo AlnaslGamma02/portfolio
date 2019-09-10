@@ -1,12 +1,11 @@
 /* フッター */
 /* 全体の背景色 */
-.footer {
+/* .footer {
   background-color: #34495e;
   height: 80px;
 }
 .footer-nav-menu {
   padding-top: 10px;
-  /* flex アイテムを両端揃え */
   justify-content: center;
   -webkit-justify-content: center;
 }
@@ -15,16 +14,15 @@
   padding-bottom: 15px;
   color: #ecf0f1;
   text-align: center;
-}
+} */
 /* タブレットサイズ */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .footer {
     height: auto;
   }
   .footer-nav-menu {
-    /* flexアイテムを左揃え */
     -webkit-align-items: flex-start;
     align-items: flex-start;
     padding-left: 1em;
   }
-}
+} */

@@ -1,20 +1,18 @@
 @charset "UTF-8";
 /* リセットCSS */
 @import url("normalize.css");
-/* Webフォント */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
 
 html, body {
   padding: 0;
   margin: 0;
 }
-*, *::before, **::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 html {
   line-height: 1.6;
   font-size: 16px;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro", sans-serif;
+  font-family: sans-serif;
 }
 body {
   color: #333;

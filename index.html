@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <!-- Google Fonts - Montserrat -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
   <!-- font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
@@ -17,11 +19,11 @@
   <meta name="description" content="Nasunoのポートフォリオサイトです。">
 </head>
 <body>
-<div id="container">
+<!-- <div id="container"> -->
   <!-- ヘッダー -->
-  <header class="l-content-expanded header">
+  <!-- <header class="l-content-expanded header"> -->
     <!-- グローバルナビゲーション -->
-    <div class="l-content-fixed globalnav">
+    <!-- <div class="l-content-fixed globalnav">
       <h1 class="header-logo">
         <a href="./index.html">Portfolio</a>
       </h1>
@@ -39,15 +41,15 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
-  </header>
+  </header> -->
   <!-- メイン -->
-  <main class="l-main">
+  <!-- <main class="l-main"> -->
     <!-- ヒーローイメージ -->
-    <section class="l-content-expanded hero blur">
+    <!-- <section class="l-content-expanded hero blur">
       <h2 class="hero-copy">Nasuno's Portfolio</h2>
-    </section>
+    </section> -->
     <!-- 自己紹介 -->
-    <div class="l-content-expanded profile-area">
+    <!-- <div class="l-content-expanded profile-area">
       <section class="l-content-fixed section">
         <header class="section-header">
           <h2 class="section-title" id="profile"><i class="fas fa-user"></i> Profile</h2>
@@ -66,9 +68,9 @@
           </p>
         </div>
       </section>
-    </div>
+    </div> -->
     <!-- スキル -->
-    <div class="l-content-expanded skills-area">
+    <!-- <div class="l-content-expanded skills-area">
       <section class="l-content-fixed section">
         <header class="section-header">
           <h2 class="section-title" id="skils"><i class="fas fa-chart-bar"></i> Skills</h2>
@@ -109,9 +111,9 @@
           </div>
         </div>
       </section>
-    </div>
+    </div> -->
     <!-- 成果物 -->
-    <div class="l-content-expanded works-area">
+    <!-- <div class="l-content-expanded works-area">
       <section class="l-content-fixed section">
         <header class="section-header">
           <h2 class="section-title" id="works"><i class="fas fa-briefcase"></i> Works</h2>
@@ -255,9 +257,9 @@
           </section>
         </div>
       </section>
-    </div>
+    </div> -->
     <!-- 連絡先 -->
-    <div class="l-content-expanded contact-area">
+    <!-- <div class="l-content-expanded contact-area">
       <section class="l-content-fixed section">
         <header class="section-header">
           <h2 class="section-title" id="contact"><i class="fas fa-envelope"></i> Contact</h2>
@@ -266,9 +268,9 @@
         <a href="mailto:tnasuno12@gmail.com" class="mail-btn"><i class="fas fa-envelope"></i> Mail</a>
       </section>
     </div>
-  </main>
+  </main> -->
   <!-- フッター -->
-  <footer class="l-content-expanded footer">
+  <!-- <footer class="l-content-expanded footer">
     <section class="l-content-fixed">
       <nav class="nav">
         <ul class="nav-menu footer-nav-menu">
@@ -284,41 +286,15 @@
         Copyright &copy;2019 Nasuno's Portfolio
       </small>
     </p>
-  </footer>
+  </footer> -->
   <!-- Topへ戻るボタン -->
-  <button onclick="topFunction()" id="back-to-top-btn" title="Go to top">
+  <!-- <button onclick="topFunction()" id="back-to-top-btn" title="Go to top">
     <i class="fas fa-angle-up"></i>
-  </button>
+  </button> -->
   <!-- JavaScript ここから -->
-  <script>
-    // グローバルメニューの表示・非表示を切り替える
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-
-    // 100px下にスクロールした時、Topへ戻るボタンを表示する
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        document.getElementById("back-to-top-btn").style.display = "block";
-      } else {
-        document.getElementById("back-to-top-btn").style.display = "none";
-      }
-    }
-
-    // Topへ戻るボタンをクリックすると一番上に戻る
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
+  <!-- <script src="./js/hamburger_menu.js"></script>
+  <script src="./js/back_to_top.js"></script> -->
   <!-- JavaScript ここまで -->
-</div>
+<!-- </div> -->
 </body>
 </html>

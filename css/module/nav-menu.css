@@ -1,9 +1,7 @@
 /* グローバルナビゲーションメニュー */
-.nav-menu {
-  /* flex コンテナ */
+/* .nav-menu {
   display: -webkit-flex;
   display: flex;
-  /* flex アイテムを上下にセンタリング */
   -webkit-align-items: center;
   align-items: center;
   font-size: 1.2rem;
@@ -14,9 +12,9 @@
 .nav-menu-item a {
   color: #ecf0f1;
   font-weight: bold;
-}
+} */
 /* タブレットサイズ */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   #myLinks {
     display: none;
   }
@@ -25,12 +23,9 @@
     padding-top: 1em;
   }
   .nav-menu {
-    /* 主軸をブロック軸に */
     flex-direction: column;
-    /* flexアイテムをセンタリング */
     -webkit-align-items: center;
     align-items: center;
-    /* flexアイテムをセンタリング */
     -webkit-justify-content: center;
     justify-content: center;
     font-size: 2.5em;
@@ -39,4 +34,4 @@
   .nav-menu-item + .nav-menu-item {
     margin-left: 0;
   }
-}
+} */

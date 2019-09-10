@@ -1,23 +1,19 @@
 /* ヒーローイメージ */
-.hero {
-  /* flex コンテナ */
+/* .hero {
   display: flex;
   display: -webkit-flex;
-  /* flex アイテムを中央揃え */
   justify-content: center;
   -webkit-justify-content: center;
-  /* flex アイテムを上下にセンタリング */
   align-items: center;
   -webkit-align-items: center;
   height: 600px;
-  /* 背景画像 */
   background: url("../../img/hero_pc.jpg") center center;
   background-size: cover;
   position: relative;
   z-index: 0;
-}
+} */
 /* 画像への効果 */
-.blur {
+/* .blur {
   overflow: hidden;
 }
 .blur::after {
@@ -29,18 +25,18 @@
   left: -7px;
   background: inherit;
   filter: blur(7px);
-}
+} */
 /* 画像上の文字列 */
-.hero-copy {
+/* .hero-copy {
   margin: 0;
   color: #333333;
   font-size: 3em;
   text-align: center;
   z-index: 1;
-}
+} */
 /* スマホサイズ */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .hero {
     height: 586px;
   }
-}
+} */

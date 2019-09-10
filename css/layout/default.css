@@ -1,32 +1,32 @@
 /* ページ全体のコンテナ */
-#container {
+/* #container {
   min-width: 980px;
-}
+} */
 /* 固定幅のコンテンツ */
-.l-content-fixed {
+/* .l-content-fixed {
   width: 980px;
   margin: 0 auto;
-}
+} */
 /* コンテナの幅に拡大するコンテンツ */
-.l-content-expanded {
+/* .l-content-expanded {
   width: auto;
   margin: 0;
-}
+} */
 /* タブレットサイズ */
-@media (max-width: 1024px) AND (min-width: 768px) {
+/* @media (max-width: 1024px) AND (min-width: 768px) {
   #container {
     min-width: 768px;
   }
   .l-content-fixed {
     width: 768px;
   }
-}
+} */
 /* スマホサイズ */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   #container {
     min-width: auto;
   }
   .l-content-fixed {
     width: auto;
   }
-}
+} */
