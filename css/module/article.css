@@ -1,0 +1,58 @@
+/* 成果物の詳細ページ - 記事 */
+.article {
+  margin-top: 40px;
+  padding: 20px;
+}
+.article > * {
+  margin-top: 20px;
+}
+.article__bg-color {
+  background-color: #ffffff;
+}
+.article__title {
+  font-size: 30px;
+}
+.article__text {
+  line-height: 2;
+}
+/* 記事の画像 */
+.article__figure {
+  margin: 20px 0 0 0;
+}
+.article__img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+/* リンクボタンのレイアウト */
+.article__link {
+  display: flex;
+  justify-content: space-around;
+}
+/* テーブル */
+.article__table-col__period {
+  width: 3em;
+}
+/* 使用技術のリスト */
+.article__tec-list {
+  flex-wrap: wrap;
+}
+.article__tec-list__item {
+  min-width: 94px;
+  width: auto;
+  border: none;
+  /* padding: 10px 20px; */
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.article__tec-list__item-color {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #ecf0f1;
+  background-color: #16a085;
+}

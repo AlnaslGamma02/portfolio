@@ -1,4 +1,13 @@
 /* フッター */
+.footer {
+  padding: 25px 15px;
+  background-color: #34495e;
+  text-align: center;
+}
+.footer__copyright__font-color {
+  color: #ecf0f1;
+}
+
 /* 全体の背景色 */
 /* .footer {
   background-color: #34495e;

@@ -1,3 +1,31 @@
+/* ボタン */
+/* リンクボタン */
+.button__link-btn {
+  width: 140px;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+/* GitHub リンクボタン */
+.button__link-btn__github {
+  font-weight: bold;
+  color: #ecf0f1;
+  background-color: #16a085;
+}
+/* 外部サイト リンクボタン */
+.button__link-btn__link {
+  font-weight: bold;
+  color: #ecf0f1;
+  background-color: #16a085;
+}
+
+
+
 /* Topへ戻るボタン */
 /* #back-to-top-btn {
   display: none;

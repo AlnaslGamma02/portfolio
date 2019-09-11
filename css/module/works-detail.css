@@ -1,0 +1,19 @@
+/* 成果物の詳細ページ */
+.works-detail {
+  padding: 40px 15px;
+  background-color: #16a085;
+}
+/* ページヘッダー */
+.works-detail__header {
+  text-align: center;
+}
+/* ページタイトル */
+.works-detail__header-title {
+  margin: 0;
+  color: #ecf0f1;
+}
+/* ページサブタイトル */
+.works-detail__header-subtitle {
+  color: #ecf0f1;
+  font-weight: bold;
+}

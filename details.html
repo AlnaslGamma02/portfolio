@@ -21,9 +21,11 @@
 <body>
 <!-- ヘッダー -->
 <header class="header">
-  <h1 class="header__logo">
-    <a href="./index.html">Portfolio</a>
-  </h1>
+  <div class="container">
+    <h1 class="header__logo">
+      <a class="header__logo__font-color" href="./index.html">Portfolio</a>
+    </h1>
+  </div>
 </header>
 <main>
 <!-- 成果物 -->
@@ -31,34 +33,99 @@
   <div class="container">
     <section class="works-detail">
 
-      <h1>Works</h1>
-      <p>過去の成果物一覧</p>
+      <header class="works-detail__header">
+        <h1 class="works-detail__header-title">Works</h1>
+        <p class="works-detail__header-subtitle">過去の成果物一覧</p>
+      </header>
 
-      <article>
-        <h2>仮想のWebサイト</h2>
-        <p>
+      <article class="article article__bg-color">
+        <h2 class="article__title">仮想のWebサイト</h2>
+        <p class="article__text">
           書籍で学んできた事やWeb上の情報を元に、仮想
           のダイニングバーのWebサイト制作を依頼された
           場合を想定して、サイトを制作しました。
           どのようにサイト制作を行ったのか、サイト制作
           の流れをGitHubのREADMEに記載しました。
         </p>
+        <figure class="article__figure">
+          <img class="article__img" src="./img/ss02.png" alt="スクリーンショット">
+        </figure>
+        <div class="article__link">
+          <a class="fab fa-github button__link-btn button__link-btn__github" href="https://github.com/AlnaslGamma02/DiningBarSite" target="_blank"> GitHub</a>
+          <a class="fas fa-link button__link-btn button__link-btn__link" href="https://alnaslgamma02.github.io/DiningBarSite/" target="_blank"> Site</a>
+        </div>
+        <table class="article__table">
+          <tbody>
+            <colgroup>
+              <col class="article__table-col__period">
+              <col class="article__table-col__type">
+            </colgroup>
+            <tr>
+              <td>期間</td>
+              <td><time datetime="2019-07-01">2019/07/01</time> - <time datetime="2019-07-20">2019/07/20</time></td>
+            </tr>
+            <tr>
+              <td>種類</td>
+              <td>Webサイト(仮想店舗)</td>
+            </tr>
+          </tbody>
+        </table>
+        <ul class="article__tec-list">
+          <li class="article__tec-list__item article__tec-list__item-color">HTML</li>
+          <li class="article__tec-list__item article__tec-list__item-color">CSS</li>
+          <li class="article__tec-list__item article__tec-list__item-color">JavaScript</li>
+          <li class="article__tec-list__item article__tec-list__item-color">Git</li>
+          <li class="article__tec-list__item article__tec-list__item-color">GitHub</li>
+        </ul>
       </article>
 
-      <article>
-        <h2>ポートフォリオ紹介サイト</h2>
-        <p>
+      <!-- 記載するか悩み中。将来的には記載するかも？ -->
+      <!-- 
+      <article class="article article__bg-color">
+        <h2 class="article__title">ポートフォリオ紹介サイト</h2>
+        <p class="article__text">
           本サイトです。
           過去に作成してきた成果物を紹介する為に制作しました。
           最初のバージョンが出来てから、現在進行形で更新を
           続けています。
           書籍等で学習した内容を反映させたりしています。
         </p>
+        <figure class="article__figure">
+          <img class="article__img" src="" alt="スクリーンショット">
+        </figure>
+        <div class="article__link">
+          <a class="fab fa-github button__link-btn button__link-btn__github" href="" target="_blank"> GitHub</a>
+          <a class="fas fa-link button__link-btn button__link-btn__link" href="" target="_blank"> Site</a>
+        </div>
+        <table class="article__table">
+          <tbody>
+            <colgroup>
+              <col class="article__table-col__period">
+              <col class="article__table-col__type">
+            </colgroup>
+            <tr>
+              <td>期間</td>
+              <td><time datetime=""></time> - <time datetime=""></time></td>
+            </tr>
+            <tr>
+              <td>種類</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <ul class="article__tec-list">
+          <li class="article__tec-list__item article__tec-list__item-color">HTML</li>
+          <li class="article__tec-list__item article__tec-list__item-color">CSS</li>
+          <li class="article__tec-list__item article__tec-list__item-color">JavaScript</li>
+          <li class="article__tec-list__item article__tec-list__item-color">Git</li>
+          <li class="article__tec-list__item article__tec-list__item-color">GitHub</li>
+        </ul>
       </article>
+      -->
 
-      <article>
-        <h2>ブログアプリ</h2>
-        <p>
+      <article class="article article__bg-color">
+        <h2 class="article__title">ブログアプリ</h2>
+        <p class="article__text">
           2018年10月から独学でプログラミングの学習を
           進めて、2019年2月からそれまで学んだ事を元に
           ブログの記事を投稿・閲覧できるWebアプリケー
@@ -67,7 +134,37 @@
           事だらけでしたが、本を読んだりネット上の情報を
           参考にしたりしてなんとか作成する事が出来ました。
         </p>
-      </article>
+        <figure class="article__figure">
+          <img class="article__img" src="./img/ss01.PNG" alt="スクリーンショット">
+        </figure>
+        <div class="article__link">
+          <a class="fab fa-github button__link-btn button__link-btn__github" href="https://github.com/AlnaslGamma02/BlogApp" target="_blank"> GitHub</a>
+          <a class="fas fa-link button__link-btn button__link-btn__link" href="https://calm-garden-94571.herokuapp.com" target="_blank"> Site</a>
+        </div>
+        <table class="article__table">
+          <tbody>
+            <colgroup>
+              <col class="article__table-col__period">
+              <col class="article__table-col__type">
+            </colgroup>
+            <tr>
+              <td>期間</td>
+              <td><time datetime="2019-02-09">2019/02/09</time> - <time datetime="2019-04-10">2019/04/10</time></td>
+            </tr>
+            <tr>
+              <td>種類</td>
+              <td>Webアプリ(ブログ)</td>
+            </tr>
+          </tbody>
+        </table>
+        <ul class="article__tec-list">
+          <li class="article__tec-list__item article__tec-list__item-color">Ruby on Rails</li>
+          <li class="article__tec-list__item article__tec-list__item-color">Bootstrap</li>
+          <li class="article__tec-list__item article__tec-list__item-color">Git</li>
+          <li class="article__tec-list__item article__tec-list__item-color">GitHub</li>
+          <li class="article__tec-list__item article__tec-list__item-color">Heroku</li>
+        </ul>
+        </article>
 
     </section>
   </div>
@@ -75,7 +172,7 @@
 </main>
 <!-- フッター -->
 <footer class="footer">
-  <p class="footer__copyright">
+  <p class="footer__copyright footer__copyright__font-color">
     <small>
       Copyright &copy;2019 Nasuno's Portfolio
     </small>

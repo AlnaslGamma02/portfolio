@@ -15,8 +15,8 @@ html {
   font-family: sans-serif;
 }
 body {
-  color: #333;
-  background-color: #ecf0f1;
+  color: #333333;
+  /* background-color: #ecf0f1; */
 }
 ul {
   list-style: none;
