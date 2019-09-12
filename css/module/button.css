@@ -1,4 +1,17 @@
 /* ボタン */
+/* サイト全体で共通 */
+/* ハンバーガーメニューアイコン */
+.hamburger-menu-icon {
+  padding: 32px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 32px;
+  color: #ecf0f1;
+  cursor: pointer;
+}
+/* 成果物詳細ページ */
 /* リンクボタン */
 .button__link-btn {
   width: 140px;
@@ -23,8 +36,15 @@
   color: #ecf0f1;
   background-color: #16a085;
 }
-
-
+/* PC版 */
+@media (min-width: 600px) {
+  .hamburger-menu-icon {
+    display: none;
+  }
+}
+/* PC版（大） */
+@media (min-width: 1025px) {
+}
 
 /* Topへ戻るボタン */
 /* #back-to-top-btn {

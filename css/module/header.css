@@ -7,6 +7,7 @@
 /* ヘッダーロゴ */
 .header__logo {
   margin: 0;
+  cursor: pointer;
 }
 .header__logo__font-color {
   color: #ecf0f1;

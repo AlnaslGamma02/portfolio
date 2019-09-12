@@ -1,4 +1,54 @@
 /* グローバルナビゲーションメニュー */
+#myLinks {
+  display: none;
+}
+.nav-menu {
+  height: 90vh;
+}
+.nav-menu__item-group {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-menu__item__color {
+  color: #ecf0f1;
+  font-size: 30px;
+}
+/* PC版 */
+@media (min-width: 600px) {
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  #myLinks {
+    display: block;
+  }
+  .nav-menu {
+    height: auto;
+    width: 100%;
+  }
+  .nav-menu__item-group {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .nav-menu__item {
+    min-width: 26px;
+    width: auto;
+    cursor: pointer;
+  }
+  .nav-menu__item + .nav-menu__item {
+    padding-left: 20px;
+  }
+  .nav-menu__item__color {
+    font-size: 18px;
+  }
+}
+/* PC版（大） */
+@media (min-width: 1025px) {
+}
+
 /* .nav-menu {
   display: -webkit-flex;
   display: flex;
