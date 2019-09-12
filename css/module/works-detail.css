@@ -1,7 +1,9 @@
 /* 成果物の詳細ページ */
+.contents__bg-color {
+  background-color: #16a085;
+}
 .works-detail {
   padding: 40px 15px;
-  background-color: #16a085;
 }
 /* ページヘッダー */
 .works-detail__header {
@@ -16,4 +18,16 @@
 .works-detail__header-subtitle {
   color: #ecf0f1;
   font-weight: bold;
+}
+/* PC版 */
+@media (min-width: 600px) {
+  .works-detail__header-title {
+    font-size: 40px;
+  }
+  .works-detail__header-subtitle {
+    font-size: 20px;
+  }
+}
+/* PC版（大） */
+@media (min-width: 1025px) {
 }

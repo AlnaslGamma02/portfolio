@@ -1,3 +1,19 @@
+/* ページレイアウトの大枠のエリアを定義 */
+/* PC版 */
+@media (min-width: 600px) {
+  .container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* PC版（大） */
+@media (min-width: 1025px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
 /* ページ全体のコンテナ */
 /* #container {
   min-width: 980px;
