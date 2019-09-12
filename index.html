@@ -19,7 +19,89 @@
   <meta name="description" content="Nasunoのポートフォリオサイトです。">
 </head>
 <body>
-<!-- <div id="container"> -->
+<!-- ヘッダー -->
+<header class="header">
+  <div class="container">
+    <div class="top-nav">
+
+      <h1 class="header__logo">
+        <a class="header__logo__font-color" href="./index.html">Portfolio</a>
+      </h1>
+
+      <nav class="nav-menu nav-menu__color" id="myLinks">
+        <ul class="nav-menu__item-group">
+          <li class="nav-menu__item"><a class="nav-menu__item__color fas fa-home" href="./index.html"> Home</a></li>
+          <li class="nav-menu__item"><a class="nav-menu__item__color fas fa-user" href="./index.html#profile"> Profile</a></li>
+          <li class="nav-menu__item"><a class="nav-menu__item__color fas fa-chart-bar" href="./index.html#skils"> Skills</a></li>
+          <li class="nav-menu__item"><a class="nav-menu__item__color fas fa-briefcase" href="./index.html#works"> Works</a></li>
+          <li class="nav-menu__item"><a class="nav-menu__item__color fas fa-envelope" href="./index.html#contact"> Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="javascript:void(0);" class="hamburger-menu-icon fa fa-bars" onclick="myFunction()"></a>
+
+    </div>
+  </div>
+</header>
+<!-- コンテンツ -->
+<main>
+<div class="contents">
+  <!-- ヒーローイメージ -->
+  <section class="hero hero__blur">
+    <h1 class="hero__title">Nasuno's Portfolio</h1>
+    <a class="hero__link" href="./details.html">成果物を見る</a>
+  </section>
+
+  <div class="container">
+    <!-- プロフィール -->
+    <section id="profile">
+      <header>
+        <h2>Profile</h2>
+        <p>プロフィール</p>
+      </header>
+    </section>
+    <!-- スキル -->
+    <section id="skils">
+      <header>
+        <h2>Skils</h2>
+        <p>スキル</p>
+      </header>
+    </section>
+    <!-- 成果物 -->
+    <section id="works">
+      <header>
+        <h2>Works</h2>
+        <p>成果物</p>
+      </header>
+    </section>
+    <!-- 連絡先 -->
+    <section id="contact">
+      <header>
+        <h2>Contact</h2>
+        <p>連絡先</p>
+      </header>
+    </section>
+  </div>
+</div>
+</main>
+<!-- フッター -->
+<footer class="footer">
+  <p class="footer__copyright footer__copyright__font-color">
+    <small>
+      Copyright &copy;2019 Nasuno's Portfolio
+    </small>
+  </p>
+</footer>
+<!-- Topへ戻るボタン -->
+<button onclick="topFunction()" id="back-to-top-btn" title="Go to top">
+  <i class="fas fa-angle-up"></i>
+</button>
+<!-- JavaScript ここから -->
+<script src="./js/hamburger_menu.js"></script>
+<script src="./js/back_to_top.js"></script>
+<!-- JavaScript ここまで -->
+
+  <!-- <div id="container"> -->
   <!-- ヘッダー -->
   <!-- <header class="l-content-expanded header"> -->
     <!-- グローバルナビゲーション -->
