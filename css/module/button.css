@@ -11,6 +11,27 @@
   color: #ecf0f1;
   cursor: pointer;
 }
+/* Topへ戻るボタン */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 48px;
+  right: 15px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #1abc9c;
+  color: #ecf0f1;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+#back-to-top-btn:hover {
+  background-color: #16a085;
+}
 /* 成果物詳細ページ */
 /* リンクボタン */
 .button__link-btn {
@@ -44,6 +65,9 @@
 }
 /* PC版（大） */
 @media (min-width: 1025px) {
+  #back-to-top-btn {
+    right: 80px;
+  }
 }
 
 /* Topへ戻るボタン */
