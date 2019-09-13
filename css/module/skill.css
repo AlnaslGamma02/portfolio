@@ -1,4 +1,37 @@
 /* スキル欄 */
+.skill-card {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* スキル名 */
+.skill-card__skill-name {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+/* グラフの背景 */
+.skill-card__bar-container {
+  width: 100%;
+  background-color: #bdc3c7;
+}
+/* スキルの値 */
+.skill-card__bar-html {width: 30%; height: 18px; background-color: #ff9800;}
+.skill-card__bar-css  {width: 30%; height: 18px; background-color: #2196F3;}
+.skill-card__bar-js   {width: 20%; height: 18px; background-color: #FFFF00;}
+.skill-card__bar-wp   {width: 20%; height: 18px; background-color: #0984e3;}
+.skill-card__bar-bs   {width: 40%; height: 18px; background-color: #4B0082;}
+.skill-card__bar-ruby {width: 40%; height: 18px; background-color: #f44336;}
+.skill-card__bar-ronr {width: 40%; height: 18px; background-color: #f44336;}
+.skill-card__bar-git  {width: 25%; height: 18px; background-color: #333333;}
+
+
 /* スキルグラフのレイアウト */
 /* .graph-layout {
   flex-wrap: wrap;
