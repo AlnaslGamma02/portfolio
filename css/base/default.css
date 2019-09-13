@@ -17,6 +17,7 @@ html {
 /* テキストの自動拡大機能を無効化 */
 body {
   color: #333333;
+  background-color: #ecf0f1;
   text-size-adjust: none;
 }
 ul {

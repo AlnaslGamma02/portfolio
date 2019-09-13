@@ -1,4 +1,43 @@
 /* 自己紹介欄 */
+.profile-card {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* .profile-card__image-block {
+  text-align: center;
+}
+.profile-card__text-block {
+  text-align: center;
+} */
+.profile-card__image {
+  width: 150px;
+  border-radius: 50%;
+}
+.profile-card__media {
+  font-size: 30px;
+}
+.profile-card__media__gh {
+  color: #34495e;
+}
+.profile-card__media__gh:hover {
+  color: #16a085;
+}
+.profile-card__media__tw {
+  color: #34495e;
+}
+.profile-card__media__tw:hover {
+  color: #16a085;
+}
+
+
 /* 自己紹介本文のレイアウト */
 /* .profile-text {
   display: -webkit-flex;

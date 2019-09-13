@@ -1,3 +1,21 @@
+/* セクションの共通設定 */
+.section {
+  padding: 40px 15px;
+}
+.section__header {
+  text-align: center;
+}
+.section__title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.section__subtitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 /* .section {
   padding: 60px 0;
   font-size: 1rem;
