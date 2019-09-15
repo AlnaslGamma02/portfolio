@@ -36,7 +36,9 @@
 .profile-card__media__tw:hover {
   color: #16a085;
 }
-
+.profile-card__text {
+  line-height: 2;
+}
 
 /* 自己紹介本文のレイアウト */
 /* .profile-text {
