@@ -1,4 +1,37 @@
 /* 成果物欄 */
+.works-area {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #ffffff; */
+}
+.works-area__item-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.works-area__item {
+  width: 45%;
+  overflow: hidden;
+}
+.works-area__item-figure {
+  margin: 0;
+}
+.works-area__item-img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ffffff;
+  vertical-align: bottom;
+}
+.works-area__link {
+  margin-top: 20px;
+}
+
+
 /* 全体の背景色 */
 /* .works-area {
   background-color: #16a085;

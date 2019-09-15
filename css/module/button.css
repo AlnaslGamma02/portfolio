@@ -45,14 +45,8 @@
   cursor: pointer;
   border-radius: 16px;
 }
-/* GitHub リンクボタン */
-.button__link-btn__github {
-  font-weight: bold;
-  color: #ecf0f1;
-  background-color: #16a085;
-}
-/* 外部サイト リンクボタン */
-.button__link-btn__link {
+/* リンクボタンの色とフォント */
+.button__link-btn__color {
   font-weight: bold;
   color: #ecf0f1;
   background-color: #16a085;
