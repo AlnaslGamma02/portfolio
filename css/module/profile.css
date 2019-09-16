@@ -16,6 +16,9 @@
   width: 150px;
   border-radius: 50%;
 }
+.profile-card__name {
+  font-family: "Montserrat", sans-serif;
+}
 /* 自己紹介文 */
 .profile-card__text {
   line-height: 2;

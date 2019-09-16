@@ -10,6 +10,7 @@
 }
 .contact-area__link {
   margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 /* PC版 */
 @media (min-width: 600px) {

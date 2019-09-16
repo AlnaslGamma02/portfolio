@@ -13,6 +13,7 @@
 .works-detail__header-title {
   margin: 0;
   color: #ecf0f1;
+  font-family: "Montserrat", sans-serif;
 }
 /* ページサブタイトル */
 .works-detail__header-subtitle {

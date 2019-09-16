@@ -7,6 +7,7 @@
 /* ヘッダーロゴ */
 .header__logo {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
 .header__logo__font-color {

@@ -4,6 +4,9 @@
   background-color: #34495e;
   text-align: center;
 }
+.footer__copyright {
+  font-family: "Montserrat", sans-serif;
+}
 .footer__copyright__font-color {
   color: #ecf0f1;
 }

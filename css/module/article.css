@@ -52,6 +52,7 @@
   border-radius: 16px;
 }
 .article__tec-list__item-color {
+  font-family: "Montserrat", sans-serif;
   font-size: 0.7em;
   font-weight: bold;
   color: #ecf0f1;
