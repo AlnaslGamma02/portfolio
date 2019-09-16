@@ -45,11 +45,17 @@
   cursor: pointer;
   border-radius: 16px;
 }
-/* リンクボタンの色とフォント */
+/* リンクボタンの色とフォント(1) */
 .button__link-btn__color {
   font-weight: bold;
   color: #ecf0f1;
   background-color: #16a085;
+}
+/* リンクボタンの色とフォント(2) */
+.button__link-btn__color-black {
+  font-weight: bold;
+  color: #ecf0f1;
+  background-color: #34495e;
 }
 /* PC版 */
 @media (min-width: 600px) {
