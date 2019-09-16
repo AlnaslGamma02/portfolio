@@ -11,6 +11,15 @@
 .contact-area__link {
   margin-top: 20px;
 }
+/* PC版 */
+@media (min-width: 600px) {
+  .contact-area__text {
+    font-size: 18px;
+  }
+}
+/* PC版（大） */
+@media (min-width: 1025px) {
+}
 /* .mail-btn {
   display: inline-block;
   padding: 0.6em 1em;

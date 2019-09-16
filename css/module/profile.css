@@ -11,35 +11,54 @@
   justify-content: center;
   text-align: center;
 }
-/* .profile-card__image-block {
-  text-align: center;
-}
-.profile-card__text-block {
-  text-align: center;
-} */
+/* プロフィール画像 */
 .profile-card__image {
   width: 150px;
   border-radius: 50%;
 }
+/* 自己紹介文 */
+.profile-card__text {
+  line-height: 2;
+}
+/* SNS等へのリンク */
 .profile-card__media {
   font-size: 30px;
 }
 .profile-card__media__gh {
-  color: #34495e;
-}
-.profile-card__media__gh:hover {
   color: #16a085;
 }
 .profile-card__media__tw {
-  color: #34495e;
-}
-.profile-card__media__tw:hover {
   color: #16a085;
 }
-.profile-card__text {
-  line-height: 2;
+/* PC版 */
+@media (min-width: 600px) {
+  .profile-card {
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-direction: row;
+  }
+  .profile-card__text-block {
+    padding-left: 1.5rem;
+  }
+  .profile-card__text {
+    font-size: 18px;
+  }
 }
-
+/* PC版（大） */
+@media (min-width: 1025px) {
+  .profile-card {
+    justify-content: space-around;
+  }
+  .profile-card__image {
+    width: 200px;
+  }
+  .profile-card__name {
+    font-size: 20px;
+  }
+  .profile-card__text-block {
+    width: 600px;
+  }
+}
 /* 自己紹介本文のレイアウト */
 /* .profile-text {
   display: -webkit-flex;

@@ -44,6 +44,15 @@
   font-weight: bold;
   z-index: 1;
 }
+/* PC版 */
+@media (min-width: 600px) {
+  .hero__title {
+    font-size: 72px;
+  }
+}
+/* PC版（大） */
+@media (min-width: 1025px) {
+}
 /* .hero {
   display: flex;
   display: -webkit-flex;
