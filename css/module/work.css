@@ -17,6 +17,9 @@
   width: 48%;
   flex: none;
 }
+.works-area__item:not(:last-child) {
+  margin-bottom: 12px;
+}
 .works-area__item-figure {
   margin: 0;
 }
@@ -29,7 +32,21 @@
 .works-area__link {
   margin-top: 20px;
 }
-
+/* PC版 */
+@media (min-width: 600px) {
+  .works-area__item-group {
+    justify-content: space-around;
+  }
+  .works-area__item {
+    width: 30%;
+  }
+  .works-area__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+/* PC版（大） */
+@media (min-width: 1025px) {
+}
 
 /* 全体の背景色 */
 /* .works-area {
