@@ -22,6 +22,8 @@
 /* 自己紹介文 */
 .profile-card__text {
   line-height: 2;
+  padding-bottom: 1em;
+  text-align: left;
 }
 /* SNS等へのリンク */
 .profile-card__media {
