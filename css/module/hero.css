@@ -51,46 +51,5 @@
   }
 }
 /* PC版（大） */
-@media (min-width: 1025px) {
-}
-/* .hero {
-  display: flex;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-  align-items: center;
-  -webkit-align-items: center;
-  height: 600px;
-  background: url("../../img/hero_pc.jpg") center center;
-  background-size: cover;
-  position: relative;
-  z-index: 0;
-} */
-/* 画像への効果 */
-/* .blur {
-  overflow: hidden;
-}
-.blur::after {
-  content: "";
-  position: absolute;
-  top: -7px;
-  right: -7px;
-  bottom: -7px;
-  left: -7px;
-  background: inherit;
-  filter: blur(7px);
-} */
-/* 画像上の文字列 */
-/* .hero-copy {
-  margin: 0;
-  color: #333333;
-  font-size: 3em;
-  text-align: center;
-  z-index: 1;
-} */
-/* スマホサイズ */
-/* @media (max-width: 767px) {
-  .hero {
-    height: 586px;
-  }
+/* @media (min-width: 1025px) {
 } */

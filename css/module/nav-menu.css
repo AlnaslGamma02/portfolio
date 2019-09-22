@@ -47,42 +47,5 @@
   }
 }
 /* PC版（大） */
-@media (min-width: 1025px) {
-}
-
-/* .nav-menu {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  font-size: 1.2rem;
-}
-.nav-menu-item + .nav-menu-item {
-  margin-left: 2em;
-}
-.nav-menu-item a {
-  color: #ecf0f1;
-  font-weight: bold;
-} */
-/* タブレットサイズ */
-/* @media (max-width: 1024px) {
-  #myLinks {
-    display: none;
-  }
-  .nav {
-    width: 100%;
-    padding-top: 1em;
-  }
-  .nav-menu {
-    flex-direction: column;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    font-size: 2.5em;
-    cursor: pointer;
-  }
-  .nav-menu-item + .nav-menu-item {
-    margin-left: 0;
-  }
+/* @media (min-width: 1025px) {
 } */

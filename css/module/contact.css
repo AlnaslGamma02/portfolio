@@ -19,18 +19,5 @@
   }
 }
 /* PC版（大） */
-@media (min-width: 1025px) {
-}
-/* .mail-btn {
-  display: inline-block;
-  padding: 0.6em 1em;
-  width: 30%;
-  border: none;
-  border-radius: 0.5em;
-  box-shadow: 3px 4px rgba(51, 51, 51, 0.15);
-  text-decoration: none;
-  color: #ecf0f1;
-  font-weight: bold;
-  cursor: pointer;
-  background-color: #1abc9c;
+/* @media (min-width: 1025px) {
 } */

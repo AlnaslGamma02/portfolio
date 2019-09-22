@@ -2,7 +2,6 @@
 .header {
   padding: 25px 15px;
   background-color: #34495e;
-  /* background-color: #ecf0f1; */
 }
 /* ヘッダーロゴ */
 .header__logo {
@@ -13,38 +12,3 @@
 .header__logo__font-color {
   color: #ecf0f1;
 }
-
-/* 全体の背景色 */
-/* .header {
-  background-color: #34495e;
-}
-.globalnav {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-} */
-/* ヘッダーロゴ */
-/* .header-logo {
-  margin: 0;
-  font-size: 2em;
-  line-height: 1;
-}
-.header-logo a {
-  color: #ecf0f1;
-} */
-/* タブレットサイズ */
-/* @media (max-width: 1024px) {
-  .globalnav {
-    flex-direction: column;
-    -webkit-align-items: flex-start;
-    align-items: flex-start;
-  }
-  .header-logo {
-    padding-left: 16px;
-  }
-} */
