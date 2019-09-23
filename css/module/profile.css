@@ -29,10 +29,7 @@
 .profile-card__media {
   font-size: 30px;
 }
-.profile-card__media__gh {
-  color: #16a085;
-}
-.profile-card__media__tw {
+.profile-card__media__green {
   color: #16a085;
 }
 /* PC版 */
